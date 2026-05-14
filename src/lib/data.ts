@@ -15,7 +15,7 @@ export const heroSlides: HeroSlide[] = [
       "Unveiling Ancient Wonders and Timeless Beauty.\nA Journey through Time and Tranquility",
     ctaText: "Explore Now",
     ctaHref: "/en/ibe",
-    backgroundImage: "/images/slides/slider1.jpg",
+    backgroundImage: "/images/umrah/hero.jpg",
   },
   {
     title: "Book your next adventure",
