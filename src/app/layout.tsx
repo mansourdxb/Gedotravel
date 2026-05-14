@@ -21,11 +21,13 @@ const prata = Prata({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://gedotravel.com"),
   title: "Gedotravel — Travel Company of Egypt",
   description:
     "Discover the best travel deals, hotel bookings, and travel packages with Gedotravel. Your journey begins here!",
   icons: {
     icon: "/seo/favicon.ico",
+    apple: "/images/logo-dark.png",
   },
   openGraph: {
     type: "website",
@@ -33,11 +35,21 @@ export const metadata: Metadata = {
     title: "Gedotravel — Travel Company of Egypt",
     description:
       "Discover the best travel deals, hotel bookings, and travel packages with Gedotravel.",
+    images: [
+      {
+        url: "/images/logo-dark.png",
+        width: 800,
+        height: 800,
+        alt: "Gedotravel Logo",
+      },
+    ],
   },
   twitter: {
+    card: "summary",
     title: "Gedotravel — Travel Company of Egypt",
     description:
       "Discover the best travel deals, hotel bookings, and travel packages with Gedotravel.",
+    images: ["/images/logo-dark.png"],
   },
 };
 
