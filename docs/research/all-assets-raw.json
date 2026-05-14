@@ -1,0 +1,688 @@
+{
+  "images": [
+    {
+      "src": "https://travco.com/logo-white.png",
+      "alt": "Travco Travel Logo",
+      "width": 200,
+      "height": 99,
+      "classes": "rlr-logo__img"
+    },
+    {
+      "src": "https://travco.com/logo-white.png",
+      "alt": "Travco Travel Logo",
+      "width": 200,
+      "height": 99,
+      "classes": "rlr-logo__img"
+    },
+    {
+      "src": "https://travco.com/logo-white.png",
+      "alt": "Travco Travel Logo",
+      "width": 200,
+      "height": 99,
+      "classes": "rlr-logo__img"
+    },
+    {
+      "src": "https://travco.com/logo-white.png",
+      "alt": "Travco Travel Logo",
+      "width": 200,
+      "height": 99,
+      "classes": "rlr-logo__img"
+    },
+    {
+      "src": "https://travco.com/images/uploads/proches.png",
+      "alt": "brochures",
+      "width": 64,
+      "height": 64,
+      "classes": "brochure d-block"
+    },
+    {
+      "src": "https://travco.com/images/uploads/contact.gif",
+      "alt": "Contact Us",
+      "width": 500,
+      "height": 500,
+      "classes": "d-block"
+    },
+    {
+      "src": "https://travco.com/images/uploads/flag-egypt.jpg",
+      "alt": "egypt flag",
+      "width": 25,
+      "height": 17,
+      "classes": ""
+    },
+    {
+      "src": "https://travco.com/images/uploads/flag-uae.jpg",
+      "alt": "egypt flag",
+      "width": 25,
+      "height": 17,
+      "classes": ""
+    },
+    {
+      "src": "https://travco.com/images/uploads/flag-jordan.jpg",
+      "alt": "egypt flag",
+      "width": 23,
+      "height": 16,
+      "classes": ""
+    },
+    {
+      "src": "https://travco.com/images/uploads/flag-oman.jpg",
+      "alt": "egypt flag",
+      "width": 25,
+      "height": 17,
+      "classes": ""
+    },
+    {
+      "src": "https://travco.com/images/uploads/flag-morocco.jpg",
+      "alt": "Boarding Pass Morocco flag",
+      "width": 25,
+      "height": 17,
+      "classes": ""
+    },
+    {
+      "src": "https://travco.com/images/uploads/qatar.png",
+      "alt": "Travco Qatar flag",
+      "width": 25,
+      "height": 25,
+      "classes": ""
+    },
+    {
+      "src": "https://travco.com/images/icons/private-jet.png",
+      "alt": "Private Jet",
+      "width": 60,
+      "height": 60,
+      "classes": "service-tab-icon"
+    },
+    {
+      "src": "https://travco.com/images/icons/e-sim.png",
+      "alt": "eSIM",
+      "width": 60,
+      "height": 60,
+      "classes": "service-tab-icon"
+    },
+    {
+      "src": "https://cp.travco.com/images/uploads/logo-italianchamber.png",
+      "alt": "",
+      "width": 0,
+      "height": 0,
+      "classes": ""
+    },
+    {
+      "src": "https://cp.travco.com/images/uploads/_14517_logo-iata.jpg",
+      "alt": "USTOA",
+      "width": 0,
+      "height": 0,
+      "classes": ""
+    },
+    {
+      "src": "https://cp.travco.com/images/uploads/_12618_logo-iata2.jpg",
+      "alt": "JATA",
+      "width": 300,
+      "height": 160,
+      "classes": ""
+    },
+    {
+      "src": "https://cp.travco.com/images/uploads/_1905_logo-iata1.jpg",
+      "alt": "NTA",
+      "width": 300,
+      "height": 160,
+      "classes": ""
+    },
+    {
+      "src": "https://cp.travco.com/images/uploads/logo-ahk.png",
+      "alt": "",
+      "width": 300,
+      "height": 160,
+      "classes": ""
+    },
+    {
+      "src": "https://cp.travco.com/images/uploads/logo-amc.png",
+      "alt": "",
+      "width": 300,
+      "height": 160,
+      "classes": ""
+    },
+    {
+      "src": "https://cp.travco.com/images/uploads/logo-drv.png",
+      "alt": "",
+      "width": 300,
+      "height": 160,
+      "classes": ""
+    },
+    {
+      "src": "https://cp.travco.com/images/uploads/logo-iata.png",
+      "alt": "",
+      "width": 300,
+      "height": 160,
+      "classes": ""
+    },
+    {
+      "src": "https://cp.travco.com/images/uploads/logo-italianchamber.png",
+      "alt": "",
+      "width": 300,
+      "height": 160,
+      "classes": ""
+    },
+    {
+      "src": "https://cp.travco.com/images/uploads/_14517_logo-iata.jpg",
+      "alt": "USTOA",
+      "width": 300,
+      "height": 160,
+      "classes": ""
+    },
+    {
+      "src": "https://cp.travco.com/images/uploads/_12618_logo-iata2.jpg",
+      "alt": "JATA",
+      "width": 300,
+      "height": 160,
+      "classes": ""
+    },
+    {
+      "src": "https://cp.travco.com/images/uploads/_1905_logo-iata1.jpg",
+      "alt": "NTA",
+      "width": 300,
+      "height": 160,
+      "classes": ""
+    },
+    {
+      "src": "https://cp.travco.com/images/uploads/logo-ahk.png",
+      "alt": "",
+      "width": 300,
+      "height": 160,
+      "classes": ""
+    },
+    {
+      "src": "https://cp.travco.com/images/uploads/logo-amc.png",
+      "alt": "",
+      "width": 300,
+      "height": 160,
+      "classes": ""
+    },
+    {
+      "src": "https://cp.travco.com/images/uploads/logo-drv.png",
+      "alt": "",
+      "width": 300,
+      "height": 160,
+      "classes": ""
+    },
+    {
+      "src": "https://cp.travco.com/images/uploads/logo-iata.png",
+      "alt": "",
+      "width": 300,
+      "height": 160,
+      "classes": ""
+    }
+  ],
+  "bgImages": [
+    {
+      "url": "null",
+      "classes": "navigation-dropdown lazy-background navigation-submenu "
+    },
+    {
+      "url": "null",
+      "classes": "navigation-dropdown lazy-background navigation-submenu "
+    },
+    {
+      "url": "null",
+      "classes": "navigation-dropdown lazy-background navigation-submenu "
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/travco-travel-5111df41-9446-479b-b6b7-e9ef6c6ef869.webp",
+      "classes": "bg-img"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/travco-travel-0a9913d3-06f8-439b-8fb2-d68bfc664b0d.webp",
+      "classes": "bg-img"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/_8989_slider1.jpg",
+      "classes": "bg-img"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/_12294_slider2.jpg",
+      "classes": "bg-img"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/_1402__8989_slider3.jpg",
+      "classes": "bg-img"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/_5135__8989_slider5.jpg",
+      "classes": "bg-img"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/_19901__8989_slider4.jpg",
+      "classes": "bg-img"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/travco-travel-5111df41-9446-479b-b6b7-e9ef6c6ef869.webp",
+      "classes": "bg-img"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/travco-travel-0a9913d3-06f8-439b-8fb2-d68bfc664b0d.webp",
+      "classes": "bg-img"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/_8989_slider1.jpg",
+      "classes": "bg-img"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/_12294_slider2.jpg",
+      "classes": "bg-img"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/_1402__8989_slider3.jpg",
+      "classes": "bg-img"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/_5135__8989_slider5.jpg",
+      "classes": "bg-img"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/_19901__8989_slider4.jpg",
+      "classes": "bg-img"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/travco-travel-5111df41-9446-479b-b6b7-e9ef6c6ef869.webp",
+      "classes": "bg-img"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/travco-travel-0a9913d3-06f8-439b-8fb2-d68bfc664b0d.webp",
+      "classes": "bg-img"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/travco-travel_7671_Untitled-1.jpg",
+      "classes": "story_item"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/travco-travel_7671_Untitled-1.jpg",
+      "classes": "shadow js-shadow"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/travco-travel_8495_Untitled-1.jpg",
+      "classes": "story_item"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/travco-travel_8495_Untitled-1.jpg",
+      "classes": "shadow js-shadow"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/travco-travel_17821_Untitled-1.jpg",
+      "classes": "story_item"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/travco-travel_17821_Untitled-1.jpg",
+      "classes": "shadow js-shadow"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/travco-travel_1994_Untitled-1.jpg",
+      "classes": "story_item"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/travco-travel_1994_Untitled-1.jpg",
+      "classes": "shadow js-shadow"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/travco-travel_3411_Untitled-1.jpg",
+      "classes": "story_item"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/travco-travel_3411_Untitled-1.jpg",
+      "classes": "shadow js-shadow"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/_14899_travco-travel_14060_Untitled-1.jpg",
+      "classes": "story_item"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/_14899_travco-travel_14060_Untitled-1.jpg",
+      "classes": "shadow js-shadow"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/travco-travel_7671_Untitled-1.jpg",
+      "classes": "story_item"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/travco-travel_7671_Untitled-1.jpg",
+      "classes": "shadow js-shadow"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/travco-travel_8495_Untitled-1.jpg",
+      "classes": "story_item"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/travco-travel_8495_Untitled-1.jpg",
+      "classes": "shadow js-shadow"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/travco-travel_17821_Untitled-1.jpg",
+      "classes": "story_item"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/travco-travel_17821_Untitled-1.jpg",
+      "classes": "shadow js-shadow"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/travco-travel_1994_Untitled-1.jpg",
+      "classes": "story_item"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/travco-travel_1994_Untitled-1.jpg",
+      "classes": "shadow js-shadow"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/travco-travel_3411_Untitled-1.jpg",
+      "classes": "story_item"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/travco-travel_3411_Untitled-1.jpg",
+      "classes": "shadow js-shadow"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/_14899_travco-travel_14060_Untitled-1.jpg",
+      "classes": "story_item"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/_14899_travco-travel_14060_Untitled-1.jpg",
+      "classes": "shadow js-shadow"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/travco-travel_7671_Untitled-1.jpg",
+      "classes": "story_item"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/travco-travel_7671_Untitled-1.jpg",
+      "classes": "shadow js-shadow"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/travco-travel_8495_Untitled-1.jpg",
+      "classes": "story_item"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/travco-travel_8495_Untitled-1.jpg",
+      "classes": "shadow js-shadow"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/travco-travel_17821_Untitled-1.jpg",
+      "classes": "story_item"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/travco-travel_17821_Untitled-1.jpg",
+      "classes": "shadow js-shadow"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/travco-travel_1994_Untitled-1.jpg",
+      "classes": "story_item"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/travco-travel_1994_Untitled-1.jpg",
+      "classes": "shadow js-shadow"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/photo-Snorkeling.jpg",
+      "classes": "story_item"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/photo-Snorkeling.jpg",
+      "classes": "shadow js-shadow"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/photo-Unique-Experiences.jpg",
+      "classes": "story_item"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/photo-Unique-Experiences.jpg",
+      "classes": "shadow js-shadow"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/photo-Cruises-&-Sailing.jpg",
+      "classes": "story_item"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/photo-Cruises-&-Sailing.jpg",
+      "classes": "shadow js-shadow"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/photoSafaris.jpg",
+      "classes": "story_item"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/photoSafaris.jpg",
+      "classes": "shadow js-shadow"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/photo-airportservices.jpg",
+      "classes": "story_item"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/photo-airportservices.jpg",
+      "classes": "shadow js-shadow"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/History.jpg",
+      "classes": "story_item"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/History.jpg",
+      "classes": "shadow js-shadow"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/Adventure.jpg",
+      "classes": "story_item"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/Adventure.jpg",
+      "classes": "shadow js-shadow"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/photo-citytours.jpg",
+      "classes": "story_item"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/photo-citytours.jpg",
+      "classes": "shadow js-shadow"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/photo-nighttours.jpg",
+      "classes": "story_item"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/photo-nighttours.jpg",
+      "classes": "shadow js-shadow"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/photo-Transfers.jpg",
+      "classes": "story_item"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/photo-Transfers.jpg",
+      "classes": "shadow js-shadow"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/photo-Snorkeling.jpg",
+      "classes": "story_item"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/photo-Snorkeling.jpg",
+      "classes": "shadow js-shadow"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/photo-Unique-Experiences.jpg",
+      "classes": "story_item"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/photo-Unique-Experiences.jpg",
+      "classes": "shadow js-shadow"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/photo-Cruises-&-Sailing.jpg",
+      "classes": "story_item"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/photo-Cruises-&-Sailing.jpg",
+      "classes": "shadow js-shadow"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/photoSafaris.jpg",
+      "classes": "story_item"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/photoSafaris.jpg",
+      "classes": "shadow js-shadow"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/photo-airportservices.jpg",
+      "classes": "story_item"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/photo-airportservices.jpg",
+      "classes": "shadow js-shadow"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/History.jpg",
+      "classes": "story_item"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/History.jpg",
+      "classes": "shadow js-shadow"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/Adventure.jpg",
+      "classes": "story_item"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/Adventure.jpg",
+      "classes": "shadow js-shadow"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/photo-citytours.jpg",
+      "classes": "story_item"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/photo-citytours.jpg",
+      "classes": "shadow js-shadow"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/photo-nighttours.jpg",
+      "classes": "story_item"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/photo-nighttours.jpg",
+      "classes": "shadow js-shadow"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/photo-Transfers.jpg",
+      "classes": "story_item"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/photo-Transfers.jpg",
+      "classes": "shadow js-shadow"
+    },
+    {
+      "url": "https://cp.travco.com/images/uploads/travco-travel-650f6fa2-9a60-4ef7-8813-19e610b4c4b0.webp",
+      "classes": ""
+    }
+  ],
+  "destCards": [],
+  "excCards": [],
+  "serviceTabs": [
+    {
+      "text": "Packages",
+      "href": "https://travco.com/#pills-one-example2",
+      "classes": "nav-link active font-weight-medium"
+    },
+    {
+      "text": "Day Trips & Excursions",
+      "href": "https://travco.com/#pills-three-example2",
+      "classes": "nav-link  font-weight-medium pl-md-5 pl-3"
+    },
+    {
+      "text": "Transfers",
+      "href": "https://travco.com/#pills-two-example2",
+      "classes": "nav-link font-weight-medium"
+    },
+    {
+      "text": "Hotels",
+      "href": "https://travco.com/#pills-four-example2",
+      "classes": "nav-link  font-weight-medium"
+    },
+    {
+      "text": "Private Jet",
+      "href": "https://shyaviation-travco-partner.com/",
+      "classes": "nav-link font-weight-medium"
+    },
+    {
+      "text": "eSIM",
+      "href": "https://airalo.pxf.io/c/5421479/2768183/15608?p.code=TRAVCO",
+      "classes": "nav-link font-weight-medium"
+    },
+    {
+      "text": "Destinations AllLuxorDateRoom TypeSingle",
+      "classes": "tab-content hero-tab-pane"
+    }
+  ],
+  "partnerLogos": [
+    {
+      "src": "https://cp.travco.com/images/uploads/logo-italianchamber.png",
+      "alt": ""
+    },
+    {
+      "src": "https://cp.travco.com/images/uploads/_14517_logo-iata.jpg",
+      "alt": "USTOA"
+    },
+    {
+      "src": "https://cp.travco.com/images/uploads/_12618_logo-iata2.jpg",
+      "alt": "JATA"
+    },
+    {
+      "src": "https://cp.travco.com/images/uploads/_1905_logo-iata1.jpg",
+      "alt": "NTA"
+    },
+    {
+      "src": "https://cp.travco.com/images/uploads/logo-ahk.png",
+      "alt": ""
+    },
+    {
+      "src": "https://cp.travco.com/images/uploads/logo-amc.png",
+      "alt": ""
+    },
+    {
+      "src": "https://cp.travco.com/images/uploads/logo-drv.png",
+      "alt": ""
+    },
+    {
+      "src": "https://cp.travco.com/images/uploads/logo-iata.png",
+      "alt": ""
+    },
+    {
+      "src": "https://cp.travco.com/images/uploads/logo-italianchamber.png",
+      "alt": ""
+    },
+    {
+      "src": "https://cp.travco.com/images/uploads/_14517_logo-iata.jpg",
+      "alt": "USTOA"
+    },
+    {
+      "src": "https://cp.travco.com/images/uploads/_12618_logo-iata2.jpg",
+      "alt": "JATA"
+    },
+    {
+      "src": "https://cp.travco.com/images/uploads/_1905_logo-iata1.jpg",
+      "alt": "NTA"
+    },
+    {
+      "src": "https://cp.travco.com/images/uploads/logo-ahk.png",
+      "alt": ""
+    },
+    {
+      "src": "https://cp.travco.com/images/uploads/logo-amc.png",
+      "alt": ""
+    },
+    {
+      "src": "https://cp.travco.com/images/uploads/logo-drv.png",
+      "alt": ""
+    },
+    {
+      "src": "https://cp.travco.com/images/uploads/logo-iata.png",
+      "alt": ""
+    }
+  ]
+}

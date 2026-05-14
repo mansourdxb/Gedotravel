@@ -1,0 +1,723 @@
+- generic [ref=e2]:
+  - complementary:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - text: 
+        - generic [ref=e5]:
+          - generic [ref=e6]:
+            - link "Travco Travel Logo" [ref=e9] [cursor=pointer]:
+              - /url: /en
+              - img "Travco Travel Logo" [ref=e10]
+            - text: 
+          - list [ref=e11]:
+            - listitem [ref=e12]:
+              - link "Destinations" [ref=e13] [cursor=pointer]:
+                - /url: /en#.
+                - text: Destinations
+                - img [ref=e14]: 
+              - list:
+                - listitem [ref=e16]:
+                  - link "Aswan" [ref=e17] [cursor=pointer]:
+                    - /url: /en/destination/egypt/aswan
+                - listitem [ref=e18]:
+                  - link "Cairo" [ref=e19] [cursor=pointer]:
+                    - /url: /en/destination/egypt/cairo
+                - listitem [ref=e20]:
+                  - link "Hurghada" [ref=e21] [cursor=pointer]:
+                    - /url: /en/destination/egypt/hurghada
+                - listitem [ref=e22]:
+                  - link "Luxor" [ref=e23] [cursor=pointer]:
+                    - /url: /en/destination/egypt/luxor
+                - listitem [ref=e24]:
+                  - link "Marsa Alam" [ref=e25] [cursor=pointer]:
+                    - /url: /en/destination/egypt/marsa-alam
+                - listitem [ref=e26]:
+                  - link "Mersa Matruh" [ref=e27] [cursor=pointer]:
+                    - /url: /en/destination/egypt/mersa-matruh
+                - listitem [ref=e28]:
+                  - link "Sharm El Sheikh" [ref=e29] [cursor=pointer]:
+                    - /url: /en/destination/egypt/sharm-el-sheikh
+            - listitem [ref=e30]:
+              - link "Programs & Hotels" [ref=e31] [cursor=pointer]:
+                - /url: /en/ibe
+            - listitem [ref=e32]:
+              - link "Services" [ref=e33] [cursor=pointer]:
+                - /url: /en#.
+                - text: Services
+                - img [ref=e34]: 
+              - list:
+                - listitem [ref=e36]:
+                  - link "Packages" [ref=e37] [cursor=pointer]:
+                    - /url: /en/ibe
+                - listitem [ref=e38]:
+                  - link "Hotels" [ref=e39] [cursor=pointer]:
+                    - /url: /en/hotels-destinations
+                - listitem [ref=e40]:
+                  - link "Day Trips & Excursions" [ref=e41] [cursor=pointer]:
+                    - /url: /en/excursions
+                - listitem [ref=e42]:
+                  - link "MICE" [ref=e43] [cursor=pointer]:
+                    - /url: /en/mice
+                - listitem [ref=e44]:
+                  - link "Private Jet" [ref=e45] [cursor=pointer]:
+                    - /url: https://shyaviation-travco-partner.com
+                - listitem [ref=e46]:
+                  - link "Fast Track & Airport Transfer" [ref=e47] [cursor=pointer]:
+                    - /url: /en/fast-track-airport-transfer
+                - listitem [ref=e48]:
+                  - link "Visa Assistance & Meet and Greet" [ref=e49] [cursor=pointer]:
+                    - /url: /en/visa
+                - listitem [ref=e50]:
+                  - link "eSIM Purchase" [ref=e51] [cursor=pointer]:
+                    - /url: https://airalo.pxf.io/c/5421479/2768183/15608?p.code=TRAVCO
+            - listitem [ref=e52]:
+              - link "Travco" [ref=e53] [cursor=pointer]:
+                - /url: /en#.
+                - text: Travco
+                - img [ref=e54]: 
+              - list:
+                - listitem [ref=e56]:
+                  - link "About Travco Travel" [ref=e57] [cursor=pointer]:
+                    - /url: /en/about-travco-travel
+                - listitem [ref=e58]:
+                  - link "Travco News" [ref=e59] [cursor=pointer]:
+                    - /url: /en/travco-news
+                - listitem [ref=e60]:
+                  - link "International Offices" [ref=e61] [cursor=pointer]:
+                    - /url: /en/international-offices
+                - listitem [ref=e62]:
+                  - link "Affiliated Companies" [ref=e63] [cursor=pointer]:
+                    - /url: /en/affiliated-companies
+                - listitem [ref=e64]:
+                  - link "Website Terms" [ref=e65] [cursor=pointer]:
+                    - /url: /en/website-terms
+          - list [ref=e745]:
+            - listitem [ref=e66]:
+              - link "brochures" [ref=e67] [cursor=pointer]:
+                - /url: /en/brochures
+                - img "brochures" [ref=e68]
+            - listitem "Contact Us" [ref=e69]:
+              - link "Contact Us" [ref=e70] [cursor=pointer]:
+                - /url: /en/contact-us
+                - img "Contact Us" [ref=e71]
+            - listitem [ref=e72]:
+              - link "USD" [ref=e73] [cursor=pointer]:
+                - /url: /en#.
+                - generic [ref=e74]:
+                  - text: USD
+                  - img [ref=e75]: 
+              - list [ref=e77]:
+                - listitem [ref=e78]:
+                  - link "USD" [ref=e79] [cursor=pointer]:
+                    - /url: /en#.
+                - listitem [ref=e80]:
+                  - link "EUR" [ref=e81] [cursor=pointer]:
+                    - /url: /en#.
+                - listitem [ref=e82]:
+                  - link "GBP" [ref=e83] [cursor=pointer]:
+                    - /url: /en#.
+            - listitem [ref=e84]:
+              - link "egypt flag Travco Egypt" [ref=e85] [cursor=pointer]:
+                - /url: /en#.
+                - img "egypt flag" [ref=e86]
+                - generic [ref=e87]:
+                  - text: Travco Egypt
+                  - img [ref=e88]: 
+              - list:
+                - listitem [ref=e90]:
+                  - img "egypt flag" [ref=e91]
+                  - link "Travco UAE" [ref=e92] [cursor=pointer]:
+                    - /url: https://www.travcotravel.ae/
+                - separator [ref=e93]
+                - listitem [ref=e94]:
+                  - img "egypt flag" [ref=e95]
+                  - link "Travco Jordan" [ref=e96] [cursor=pointer]:
+                    - /url: https://www.travcotravel.jo/
+                - separator [ref=e97]
+                - listitem [ref=e98]:
+                  - img "egypt flag" [ref=e99]
+                  - link "Travco Oman" [ref=e100] [cursor=pointer]:
+                    - /url: https://travcotravel.om/
+                - separator [ref=e101]
+                - listitem [ref=e102]:
+                  - img "Boarding Pass Morocco flag" [ref=e103]
+                  - link "Boarding Pass Morocco" [ref=e104] [cursor=pointer]:
+                    - /url: https://boardingpassdmc.ma/en/home/
+                - separator [ref=e105]
+                - listitem [ref=e106]:
+                  - img "Travco Qatar flag" [ref=e107]
+                  - link "Travco Qatar" [ref=e108] [cursor=pointer]:
+                    - /url: https://travcotravel.qa/
+            - listitem [ref=e109]:
+              - link "Login" [ref=e110] [cursor=pointer]:
+                - /url: /en/login
+                - text: Login
+                - img [ref=e111]
+  - main [ref=e113]:
+    - text: 
+    - generic [ref=e119]:
+      - generic [ref=e125]:
+        - heading [level=2] [ref=e127]: Welcome Aboard
+        - paragraph [ref=e128]:
+          - generic [ref=e129]: A Luxury aviation experience, tailored to you
+        - link [ref=e130] [cursor=pointer]:
+          - /url: https://shyaviation-travco-partner.com
+          - text: Explore Now
+      - generic [ref=e136]:
+        - heading [level=2] [ref=e138]: Travel Smart with eSIM
+        - paragraph [ref=e139]: Stay connected, wherever you travel, at affordable rates
+        - link [ref=e140] [cursor=pointer]:
+          - /url: https://airalo.pxf.io/c/5421479/2768183/15608?p.code=TRAVCO
+          - text: Book Now
+      - generic [ref=e146]:
+        - heading "Programs & Hotels" [level=2] [ref=e148]
+        - paragraph [ref=e149]:
+          - paragraph [ref=e150]: Unveiling Ancient Wonders and Timeless Beauty.
+          - paragraph [ref=e151]: A Journey through Time and Tranquility
+        - link "Explore Now" [ref=e152] [cursor=pointer]:
+          - /url: https://travco.com/en/ibe
+      - generic [ref=e158]:
+        - heading [level=2] [ref=e160]: Book your next adventure
+        - paragraph [ref=e161]: Embark on an unforgettable journey through the land of Pharaohs and Pyramids.
+        - link [ref=e162] [cursor=pointer]:
+          - /url: /en/tours-activities/
+          - text: Explore Now
+      - generic [ref=e168]:
+        - heading [level=2] [ref=e170]: Journey Through Time
+        - paragraph [ref=e171]: Sail the Majestic Nile River aboard our Nile Cruises.
+        - link [ref=e172] [cursor=pointer]:
+          - /url: /en/nile-cruises/
+          - text: Explore Now
+      - generic [ref=e178]:
+        - heading [level=2] [ref=e180]: Secure Your Stay with Ease
+        - paragraph [ref=e181]: Find Your Ideal Accommodation in Egypt
+        - link [ref=e182] [cursor=pointer]:
+          - /url: /en/hotels-destinations
+          - text: Explore Now
+      - generic [ref=e188]:
+        - heading [level=2] [ref=e190]: Seamless Travel Experiences Across Egypt's Landscapes
+        - paragraph [ref=e191]: Elevating Travel Experiences with our Diverse Fleet in Egypt
+        - link [ref=e192] [cursor=pointer]:
+          - /url: /en/transfers-and-airport-services/
+          - text: Explore Now
+      - generic [ref=e198]:
+        - heading [level=2] [ref=e200]: Welcome Aboard
+        - paragraph [ref=e201]:
+          - generic [ref=e202]: A Luxury aviation experience, tailored to you
+        - link [ref=e203] [cursor=pointer]:
+          - /url: https://shyaviation-travco-partner.com
+          - text: Explore Now
+      - generic [ref=e209]:
+        - heading [level=2] [ref=e211]: Travel Smart with eSIM
+        - paragraph [ref=e212]: Stay connected, wherever you travel, at affordable rates
+        - link [ref=e213] [cursor=pointer]:
+          - /url: https://airalo.pxf.io/c/5421479/2768183/15608?p.code=TRAVCO
+          - text: Book Now
+      - generic [ref=e219]:
+        - heading [level=2] [ref=e221]: Programs & Hotels
+        - paragraph [ref=e222]:
+          - paragraph [ref=e223]: Unveiling Ancient Wonders and Timeless Beauty.
+          - paragraph [ref=e224]: A Journey through Time and Tranquility
+        - link [ref=e225] [cursor=pointer]:
+          - /url: https://travco.com/en/ibe
+          - text: Explore Now
+      - generic [ref=e231]:
+        - heading [level=2] [ref=e233]: Book your next adventure
+        - paragraph [ref=e234]: Embark on an unforgettable journey through the land of Pharaohs and Pyramids.
+        - link [ref=e235] [cursor=pointer]:
+          - /url: /en/tours-activities/
+          - text: Explore Now
+      - generic [ref=e241]:
+        - heading [level=2] [ref=e243]: Journey Through Time
+        - paragraph [ref=e244]: Sail the Majestic Nile River aboard our Nile Cruises.
+        - link [ref=e245] [cursor=pointer]:
+          - /url: /en/nile-cruises/
+          - text: Explore Now
+      - generic [ref=e251]:
+        - heading [level=2] [ref=e253]: Secure Your Stay with Ease
+        - paragraph [ref=e254]: Find Your Ideal Accommodation in Egypt
+        - link [ref=e255] [cursor=pointer]:
+          - /url: /en/hotels-destinations
+          - text: Explore Now
+      - generic [ref=e261]:
+        - heading [level=2] [ref=e263]: Seamless Travel Experiences Across Egypt's Landscapes
+        - paragraph [ref=e264]: Elevating Travel Experiences with our Diverse Fleet in Egypt
+        - link [ref=e265] [cursor=pointer]:
+          - /url: /en/transfers-and-airport-services/
+          - text: Explore Now
+      - generic [ref=e271]:
+        - heading [level=2] [ref=e273]: Welcome Aboard
+        - paragraph [ref=e274]:
+          - generic [ref=e275]: A Luxury aviation experience, tailored to you
+        - link [ref=e276] [cursor=pointer]:
+          - /url: https://shyaviation-travco-partner.com
+          - text: Explore Now
+      - generic [ref=e282]:
+        - heading [level=2] [ref=e284]: Travel Smart with eSIM
+        - paragraph [ref=e285]: Stay connected, wherever you travel, at affordable rates
+        - link [ref=e286] [cursor=pointer]:
+          - /url: https://airalo.pxf.io/c/5421479/2768183/15608?p.code=TRAVCO
+          - text: Book Now
+    - generic [ref=e291]:
+      - tablist [ref=e292]:
+        - listitem [ref=e293]:
+          - tab "Packages" [selected] [ref=e294] [cursor=pointer]:
+            - generic [ref=e295]:
+              - figure [ref=e296]:
+                - generic [ref=e297]: 
+              - generic [ref=e298]: Packages
+        - listitem [ref=e299]:
+          - tab "Day Trips & Excursions" [selected] [ref=e300] [cursor=pointer]:
+            - generic [ref=e301]:
+              - figure [ref=e302]:
+                - generic [ref=e303]: 
+              - generic [ref=e304]: Day Trips & Excursions
+        - listitem [ref=e305]:
+          - tab "Transfers" [selected] [ref=e306] [cursor=pointer]:
+            - generic [ref=e307]:
+              - figure [ref=e308]:
+                - generic [ref=e309]: 
+              - generic [ref=e310]: Transfers
+        - listitem [ref=e311]:
+          - tab "Hotels" [selected] [ref=e312] [cursor=pointer]:
+            - generic [ref=e313]:
+              - figure [ref=e314]:
+                - generic [ref=e315]: 
+              - generic [ref=e316]: Hotels
+        - listitem [ref=e317]:
+          - link "Private Jet" [ref=e318] [cursor=pointer]:
+            - /url: https://shyaviation-travco-partner.com
+            - generic [ref=e319]:
+              - figure [ref=e320]:
+                - img "Private Jet" [ref=e321]
+              - generic [ref=e322]: Private Jet
+        - listitem [ref=e323]:
+          - link "eSIM" [ref=e324] [cursor=pointer]:
+            - /url: https://airalo.pxf.io/c/5421479/2768183/15608?p.code=TRAVCO
+            - generic [ref=e325]:
+              - figure [ref=e326]:
+                - img "eSIM" [ref=e327]
+              - generic [ref=e328]: eSIM
+      - generic [ref=e329]:
+        - option "All" [selected]
+        - option "Luxor"
+        - option "Single Room" [selected]
+        - option "Double Room"
+        - option "1 Room" [selected]
+        - option "2 Rooms"
+        - option "3 Rooms"
+        - option "4 Rooms"
+        - option "5 Rooms"
+        - option "6 Rooms"
+        - option "7 Rooms"
+        - option "8 Rooms"
+        - option "9 Rooms"
+        - option "10 Rooms"
+        - text:               
+    - generic [ref=e331]:
+      - generic [ref=e332]:
+        - generic [ref=e333]:
+          - heading "Unveiling Exquisite Treasures" [level=2] [ref=e334]
+          - paragraph [ref=e336]: Unlock Secret Gems for Unforgettable Discoveries in Egypt
+        - generic [ref=e339]:
+          - generic [ref=e340]:
+            - button "Previous" [ref=e341] [cursor=pointer]:
+              - generic [ref=e342]: 
+            - button "Next" [ref=e343] [cursor=pointer]:
+              - generic [ref=e344]: 
+          - link "View All Destinations" [ref=e345] [cursor=pointer]:
+            - /url: /en/destination/egypt
+      - generic [ref=e348]:
+        - link "Cairo 11 Tours" [ref=e747] [cursor=pointer]:
+          - /url: /en/destination/egypt/cairo
+          - generic [ref=e749]:
+            - heading "Cairo" [level=3] [ref=e750]
+            - paragraph [ref=e751]: 11 Tours
+        - link "Marsa Alam 18 Tours" [ref=e350] [cursor=pointer]:
+          - /url: /en/destination/egypt/marsa-alam
+          - generic [ref=e352]:
+            - heading "Marsa Alam" [level=3] [ref=e353]
+            - paragraph [ref=e354]: 18 Tours
+        - link "Sharm El Sheikh 13 Tours" [ref=e357] [cursor=pointer]:
+          - /url: /en/destination/egypt/sharm-el-sheikh
+          - generic [ref=e359]:
+            - heading "Sharm El Sheikh" [level=3] [ref=e360]
+            - paragraph [ref=e361]: 13 Tours
+        - link "Luxor 10 Tours" [ref=e364] [cursor=pointer]:
+          - /url: /en/destination/egypt/luxor
+          - generic [ref=e366]:
+            - heading "Luxor" [level=3] [ref=e367]
+            - paragraph [ref=e368]: 10 Tours
+        - link "Hurghada 15 Tours" [ref=e371] [cursor=pointer]:
+          - /url: /en/destination/egypt/hurghada
+          - generic [ref=e373]:
+            - heading "Hurghada" [level=3] [ref=e374]
+            - paragraph [ref=e375]: 15 Tours
+        - link "Aswan 4 Tours" [ref=e378] [cursor=pointer]:
+          - /url: /en/destination/egypt/aswan
+          - generic [ref=e380]:
+            - heading "Aswan" [level=3] [ref=e381]
+            - paragraph [ref=e382]: 4 Tours
+        - link "Cairo 11 Tours" [ref=e385] [cursor=pointer]:
+          - /url: /en/destination/egypt/cairo
+          - generic [ref=e387]:
+            - heading "Cairo" [level=3] [ref=e388]
+            - paragraph [ref=e389]: 11 Tours
+        - link "Marsa Alam 18 Tours" [ref=e392] [cursor=pointer]:
+          - /url: /en/destination/egypt/marsa-alam
+          - generic [ref=e394]:
+            - heading "Marsa Alam" [level=3] [ref=e395]
+            - paragraph [ref=e396]: 18 Tours
+        - link "Sharm El Sheikh 13 Tours" [ref=e399] [cursor=pointer]:
+          - /url: /en/destination/egypt/sharm-el-sheikh
+          - generic [ref=e401]:
+            - heading "Sharm El Sheikh" [level=3] [ref=e402]
+            - paragraph [ref=e403]: 13 Tours
+        - link "Luxor 10 Tours" [ref=e406] [cursor=pointer]:
+          - /url: /en/destination/egypt/luxor
+          - generic [ref=e408]:
+            - heading "Luxor" [level=3] [ref=e409]
+            - paragraph [ref=e410]: 10 Tours
+        - link "Hurghada 15 Tours" [ref=e413] [cursor=pointer]:
+          - /url: /en/destination/egypt/hurghada
+          - generic [ref=e415]:
+            - heading "Hurghada" [level=3] [ref=e416]
+            - paragraph [ref=e417]: 15 Tours
+        - link "Aswan 4 Tours" [ref=e420] [cursor=pointer]:
+          - /url: /en/destination/egypt/aswan
+          - generic [ref=e422]:
+            - heading "Aswan" [level=3] [ref=e423]
+            - paragraph [ref=e424]: 4 Tours
+        - link "Cairo 11 Tours" [ref=e427] [cursor=pointer]:
+          - /url: /en/destination/egypt/cairo
+          - generic [ref=e429]:
+            - heading "Cairo" [level=3] [ref=e430]
+            - paragraph [ref=e431]: 11 Tours
+        - link "Marsa Alam 18 Tours" [ref=e434] [cursor=pointer]:
+          - /url: /en/destination/egypt/marsa-alam
+          - generic [ref=e436]:
+            - heading "Marsa Alam" [level=3] [ref=e437]
+            - paragraph [ref=e438]: 18 Tours
+        - link "Sharm El Sheikh 13 Tours" [ref=e441] [cursor=pointer]:
+          - /url: /en/destination/egypt/sharm-el-sheikh
+          - generic [ref=e443]:
+            - heading "Sharm El Sheikh" [level=3] [ref=e444]
+            - paragraph [ref=e445]: 13 Tours
+        - link "Luxor 10 Tours" [ref=e754] [cursor=pointer]:
+          - /url: /en/destination/egypt/luxor
+          - generic [ref=e756]:
+            - heading "Luxor" [level=3] [ref=e757]
+            - paragraph [ref=e758]: 10 Tours
+    - generic [ref=e448]:
+      - generic [ref=e449]:
+        - generic [ref=e450]:
+          - heading "Unforgettable Egypt Excursions!" [level=2] [ref=e451]
+          - generic [ref=e452]: Discover More, Worry Less! Book your daily tours with ease! Enjoy quick, hassle-free access to Egypt’s top sites and attractions. Your adventure starts here!
+        - generic [ref=e455]:
+          - generic [ref=e456]:
+            - button "Previous" [ref=e457] [cursor=pointer]:
+              - generic [ref=e458]: 
+            - button "Next" [ref=e459] [cursor=pointer]:
+              - generic [ref=e460]: 
+          - link "View All Types" [ref=e461] [cursor=pointer]:
+            - /url: /en/travel-idea
+      - generic [ref=e464]:
+        - link "Snorkeling 1 Tours" [ref=e761] [cursor=pointer]:
+          - /url: /en/travel-idea/snorkeling
+          - generic [ref=e763]:
+            - heading "Snorkeling" [level=3] [ref=e764]
+            - paragraph [ref=e765]: 1 Tours
+        - link "Luxury & Premium Experiences 2 Tours" [ref=e466] [cursor=pointer]:
+          - /url: /en/travel-idea/luxury-premium-experiences
+          - generic [ref=e468]:
+            - heading "Luxury & Premium Experiences" [level=3] [ref=e469]
+            - paragraph [ref=e470]: 2 Tours
+        - link "Boat Trips & Luxury Cruises 15 Tours" [ref=e473] [cursor=pointer]:
+          - /url: /en/travel-idea/boat-trips-luxury-cruises
+          - generic [ref=e475]:
+            - heading "Boat Trips & Luxury Cruises" [level=3] [ref=e476]
+            - paragraph [ref=e477]: 15 Tours
+        - link "Safaris 1 Tours" [ref=e480] [cursor=pointer]:
+          - /url: /en/travel-idea/safaris
+          - generic [ref=e482]:
+            - heading "Safaris" [level=3] [ref=e483]
+            - paragraph [ref=e484]: 1 Tours
+        - link "Fast Track & Assistance Services 3 Tours" [ref=e487] [cursor=pointer]:
+          - /url: /en/travel-idea/fast-track-assistance-services
+          - generic [ref=e489]:
+            - heading "Fast Track & Assistance Services" [level=3] [ref=e490]
+            - paragraph [ref=e491]: 3 Tours
+        - link "Cultural & Historical Tours 20 Tours" [ref=e494] [cursor=pointer]:
+          - /url: /en/travel-idea/cultural-historical-tours
+          - generic [ref=e496]:
+            - heading "Cultural & Historical Tours" [level=3] [ref=e497]
+            - paragraph [ref=e498]: 20 Tours
+        - link "Adventure & Desert Tours 7 Tours" [ref=e501] [cursor=pointer]:
+          - /url: /en/travel-idea/adventure-desert-tours-
+          - generic [ref=e503]:
+            - heading "Adventure & Desert Tours" [level=3] [ref=e504]
+            - paragraph [ref=e505]: 7 Tours
+        - link "City Breaks 2 Tours" [ref=e508] [cursor=pointer]:
+          - /url: /en/travel-idea/city-breaks
+          - generic [ref=e510]:
+            - heading "City Breaks" [level=3] [ref=e511]
+            - paragraph [ref=e512]: 2 Tours
+        - link "Night Tours & Entertainment 5 Tours" [ref=e515] [cursor=pointer]:
+          - /url: /en/travel-idea/night-tours-entertainment
+          - generic [ref=e517]:
+            - heading "Night Tours & Entertainment" [level=3] [ref=e518]
+            - paragraph [ref=e519]: 5 Tours
+        - link "Private Airport Transfers 14 Tours" [ref=e522] [cursor=pointer]:
+          - /url: /en/travel-idea/private-airport-transfers
+          - generic [ref=e524]:
+            - heading "Private Airport Transfers" [level=3] [ref=e525]
+            - paragraph [ref=e526]: 14 Tours
+        - link "Snorkeling 1 Tours" [ref=e529] [cursor=pointer]:
+          - /url: /en/travel-idea/snorkeling
+          - generic [ref=e531]:
+            - heading "Snorkeling" [level=3] [ref=e532]
+            - paragraph [ref=e533]: 1 Tours
+        - link "Luxury & Premium Experiences 2 Tours" [ref=e536] [cursor=pointer]:
+          - /url: /en/travel-idea/luxury-premium-experiences
+          - generic [ref=e538]:
+            - heading "Luxury & Premium Experiences" [level=3] [ref=e539]
+            - paragraph [ref=e540]: 2 Tours
+        - link "Boat Trips & Luxury Cruises 15 Tours" [ref=e543] [cursor=pointer]:
+          - /url: /en/travel-idea/boat-trips-luxury-cruises
+          - generic [ref=e545]:
+            - heading "Boat Trips & Luxury Cruises" [level=3] [ref=e546]
+            - paragraph [ref=e547]: 15 Tours
+        - link "Safaris 1 Tours" [ref=e550] [cursor=pointer]:
+          - /url: /en/travel-idea/safaris
+          - generic [ref=e552]:
+            - heading "Safaris" [level=3] [ref=e553]
+            - paragraph [ref=e554]: 1 Tours
+        - link "Fast Track & Assistance Services 3 Tours" [ref=e557] [cursor=pointer]:
+          - /url: /en/travel-idea/fast-track-assistance-services
+          - generic [ref=e559]:
+            - heading "Fast Track & Assistance Services" [level=3] [ref=e560]
+            - paragraph [ref=e561]: 3 Tours
+        - link "Cultural & Historical Tours 20 Tours" [ref=e564] [cursor=pointer]:
+          - /url: /en/travel-idea/cultural-historical-tours
+          - generic [ref=e566]:
+            - heading "Cultural & Historical Tours" [level=3] [ref=e567]
+            - paragraph [ref=e568]: 20 Tours
+        - link "Adventure & Desert Tours 7 Tours" [ref=e571] [cursor=pointer]:
+          - /url: /en/travel-idea/adventure-desert-tours-
+          - generic [ref=e573]:
+            - heading "Adventure & Desert Tours" [level=3] [ref=e574]
+            - paragraph [ref=e575]: 7 Tours
+        - link "City Breaks 2 Tours" [ref=e578] [cursor=pointer]:
+          - /url: /en/travel-idea/city-breaks
+          - generic [ref=e580]:
+            - heading "City Breaks" [level=3] [ref=e581]
+            - paragraph [ref=e582]: 2 Tours
+        - link "Night Tours & Entertainment 5 Tours" [ref=e585] [cursor=pointer]:
+          - /url: /en/travel-idea/night-tours-entertainment
+          - generic [ref=e587]:
+            - heading "Night Tours & Entertainment" [level=3] [ref=e588]
+            - paragraph [ref=e589]: 5 Tours
+        - link "Private Airport Transfers 14 Tours" [ref=e768] [cursor=pointer]:
+          - /url: /en/travel-idea/private-airport-transfers
+          - generic [ref=e770]:
+            - heading "Private Airport Transfers" [level=3] [ref=e771]
+            - paragraph [ref=e772]: 14 Tours
+    - generic [ref=e591]:
+      - heading "TripAdvisor® Traveler Reviews" [level=2] [ref=e595]
+      - iframe [ref=e597]:
+        - generic [ref=f2e2]:
+          - generic [ref=f2e4]:
+            - link "Tripadvisor" [ref=f2e6] [cursor=pointer]:
+              - /url: https://www.tripadvisor.com/
+              - img "Tripadvisor" [ref=f2e7]
+            - generic [ref=f2e10]:
+              - generic [ref=f2e11]: "\"Superb trip, made even better by Yas\""
+              - generic [ref=f2e12]: April 16, 2026 - A Tripadvisor Traveler
+              - generic [ref=f2e13]:
+                - text: Read 426 reviews of
+                - link "Travco Travel Company of Egypt" [ref=f2e14] [cursor=pointer]:
+                  - /url: https://www.tripadvisor.com/Attraction_Review-g294201-d3203629-Reviews-Travco_Travel_Company_of_Egypt-Cairo_Cairo_Governorate.html
+            - img [ref=f2e16]
+          - generic [ref=f2e17]:
+            - generic [ref=f2e19]:
+              - link [ref=f2e20] [cursor=pointer]:
+                - /url: https://www.tripadvisor.com/Attraction_Review-g294201-d3203629-Reviews-Travco_Travel_Company_of_Egypt-Cairo_Cairo_Governorate.html
+              - generic [ref=f2e21]:
+                - generic [ref=f2e23]: Bravo!
+                - img [ref=f2e24]
+              - link "Travco Travel Company of Egypt rated \"excellent\" by 336 travelers" [ref=f2e26] [cursor=pointer]:
+                - /url: ""
+              - link "Tripadvisor" [ref=f2e28] [cursor=pointer]:
+                - /url: https://www.tripadvisor.com/
+                - img "Tripadvisor" [ref=f2e29]
+            - generic [ref=f2e31]:
+              - link [ref=f2e32] [cursor=pointer]:
+                - /url: https://www.tripadvisor.com/Attraction_Review-g294201-d3203629-Reviews-Travco_Travel_Company_of_Egypt-Cairo_Cairo_Governorate.html
+              - link "Tripadvisor" [ref=f2e33] [cursor=pointer]:
+                - /url: https://www.tripadvisor.com/Attraction_Review-g294201-d3203629-Reviews-Travco_Travel_Company_of_Egypt-Cairo_Cairo_Governorate.html
+                - img "Tripadvisor" [ref=f2e34]
+    - generic [ref=e600]:
+      - generic [ref=e601] [cursor=pointer]: prev
+      - generic [ref=e602] [cursor=pointer]: next
+      - generic [ref=e603]:
+        - img [ref=e605]
+        - img "USTOA" [ref=e607]
+        - img "JATA" [ref=e609]
+        - img "NTA" [ref=e611]
+        - img [ref=e613]
+        - img [ref=e615]
+        - img [ref=e617]
+        - img [ref=e619]
+        - img [ref=e621]
+        - img "USTOA" [ref=e623]
+        - img "JATA" [ref=e625]
+        - img "NTA" [ref=e627]
+        - img [ref=e629]
+        - img [ref=e631]
+        - img [ref=e633]
+        - img [ref=e635]
+  - contentinfo [ref=e636]:
+    - generic [ref=e639]:
+      - generic [ref=e640]:
+        - heading "Subscribe to our newsletter" [level=2] [ref=e641]
+        - paragraph [ref=e642]: Join our mailing list to receive monthly news and updates about our developments
+      - generic [ref=e643]:
+        - textbox [ref=e644]:
+          - /placeholder: Your name here
+        - textbox [ref=e645]:
+          - /placeholder: Your e-mail here
+        - textbox "Enter Your Email" [ref=e646]
+        - button "Subscribe" [ref=e647] [cursor=pointer]
+        - iframe [ref=e653]:
+          - generic [ref=f3e2]:
+            - generic [ref=f3e3]:
+              - checkbox "I'm not a robot" [ref=f3e7]
+              - generic [ref=f3e11]: I'm not a robot
+            - generic [ref=f3e15]: reCAPTCHA
+    - generic [ref=e655]:
+      - generic [ref=e656]:
+        - generic [ref=e657]:
+          - generic [ref=e658]:
+            - generic [ref=e659]: Our Services
+            - list [ref=e660]:
+              - listitem [ref=e661]:
+                - link "Destination Guide" [ref=e662] [cursor=pointer]:
+                  - /url: /en/destination-guide
+              - listitem [ref=e663]:
+                - link "Packages" [ref=e664] [cursor=pointer]:
+                  - /url: /en/ibe
+              - listitem [ref=e665]:
+                - link "Day Trips & Excursions" [ref=e666] [cursor=pointer]:
+                  - /url: /en/excursions
+              - listitem [ref=e667]:
+                - link "Fast Track & Airport Transfer" [ref=e668] [cursor=pointer]:
+                  - /url: /en/fast-track-airport-transfer
+              - listitem [ref=e669]:
+                - link "Visa Assistance & Meet and Greet" [ref=e670] [cursor=pointer]:
+                  - /url: /en/visa
+          - generic [ref=e671]:
+            - generic [ref=e672]: Top Destinations
+            - list [ref=e673]:
+              - listitem [ref=e674]:
+                - link "Aswan" [ref=e675] [cursor=pointer]:
+                  - /url: /en/destination/egypt/aswan
+              - listitem [ref=e676]:
+                - link "Cairo" [ref=e677] [cursor=pointer]:
+                  - /url: /en/destination/egypt/cairo
+              - listitem [ref=e678]:
+                - link "Hurghada" [ref=e679] [cursor=pointer]:
+                  - /url: /en/destination/egypt/hurghada
+              - listitem [ref=e680]:
+                - link "Luxor" [ref=e681] [cursor=pointer]:
+                  - /url: /en/destination/egypt/luxor
+              - listitem [ref=e682]:
+                - link "Marsa Alam" [ref=e683] [cursor=pointer]:
+                  - /url: /en/destination/egypt/marsa-alam
+              - listitem [ref=e684]:
+                - link "Mersa Matruh" [ref=e685] [cursor=pointer]:
+                  - /url: /en/destination/egypt/mersa-matruh
+              - listitem [ref=e686]:
+                - link "Sharm El Sheikh" [ref=e687] [cursor=pointer]:
+                  - /url: /en/destination/egypt/sharm-el-sheikh
+          - generic [ref=e688]:
+            - generic [ref=e689]: About Us
+            - list [ref=e690]:
+              - listitem [ref=e691]:
+                - link "About Travco" [ref=e692] [cursor=pointer]:
+                  - /url: /en/about-travco-travel
+              - listitem [ref=e693]:
+                - link "Travco News" [ref=e694] [cursor=pointer]:
+                  - /url: /en/travco-news
+              - listitem [ref=e695]:
+                - link "International Offices" [ref=e696] [cursor=pointer]:
+                  - /url: /en/international-offices
+              - listitem [ref=e697]:
+                - link "Affiliated Companies" [ref=e698] [cursor=pointer]:
+                  - /url: /en/affiliated-companies
+              - listitem [ref=e699]:
+                - link "Contact Us" [ref=e700] [cursor=pointer]:
+                  - /url: /en/contact-us
+              - listitem [ref=e701]:
+                - link "Be Our Partner" [ref=e702] [cursor=pointer]:
+                  - /url: /en/be-our-partner
+              - listitem [ref=e703]:
+                - link "Branches" [ref=e704] [cursor=pointer]:
+                  - /url: /en/branches
+              - listitem [ref=e705]:
+                - link "Destination Handbook" [ref=e706] [cursor=pointer]:
+                  - /url: /en/destination-handbook
+              - listitem [ref=e707]:
+                - link "Testimonials" [ref=e708] [cursor=pointer]:
+                  - /url: /en/testimonials
+        - generic [ref=e709]:
+          - generic [ref=e710]: Contacts
+          - generic [ref=e711]:
+            - generic [ref=e712]:
+              - link "(+202) 3854 1010" [ref=e713] [cursor=pointer]:
+                - /url: tel:(+202) 3854 1010
+                - img [ref=e714]: 
+                - text: (+202) 3854 1010
+              - paragraph [ref=e716]: Round the clock support
+            - generic [ref=e717]:
+              - link " info@travco.com" [ref=e718] [cursor=pointer]:
+                - /url: mailto:info@travco.com
+                - generic [ref=e719]: 
+                - text: info@travco.com
+              - paragraph [ref=e720]: For any inquiries
+            - generic [ref=e721]: Travco Center, 26th Of July Corridor.6th Of October, Egypt.
+          - generic:
+            - link [ref=e722] [cursor=pointer]:
+              - /url: https://www.whatsapp.com/channel/0029VaFiN6lLikg6BHqn7f2b
+            - link [ref=e724] [cursor=pointer]:
+              - /url: https://www.facebook.com/Travcotravelco
+            - link [ref=e726] [cursor=pointer]:
+              - /url: https://twitter.com/TravelTravco
+            - link [ref=e728] [cursor=pointer]:
+              - /url: https://www.instagram.com/travcotravel/
+            - link [ref=e730] [cursor=pointer]:
+              - /url: https://www.youtube.com/@TravcoTravelEgypt
+            - link [ref=e732] [cursor=pointer]:
+              - /url: https://whatsapp.com/channel/0029VaFiN6lLikg6BHqn7f2b
+          - iframe [ref=e735]:
+            - list [ref=f1e6]:
+              - listitem [ref=f1e7]:
+                - link "Read reviews of Travco Travel Company of Egypt" [ref=f1e8] [cursor=pointer]:
+                  - /url: https://www.tripadvisor.com/Attraction_Review-g294201-d3203629-Reviews-Travco_Travel_Company_of_Egypt-Cairo_Cairo_Governorate.html
+              - listitem [ref=f1e9]:
+                - link "Tripadvisor" [ref=f1e10] [cursor=pointer]:
+                  - /url: https://www.tripadvisor.com/
+                  - img "Tripadvisor" [ref=f1e11]
+      - generic [ref=e736]:
+        - link "Copyright © 2026 Travco Travel Company of Egypt" [ref=e738] [cursor=pointer]:
+          - /url: /en
+        - generic [ref=e739]:
+          - link "Home" [ref=e740] [cursor=pointer]:
+            - /url: /en
+          - text: "-"
+          - link "Privacy Policy" [ref=e741] [cursor=pointer]:
+            - /url: /en/privacy-policy
+          - text: "-"
+          - link "Terms & Conditions" [ref=e742] [cursor=pointer]:
+            - /url: /en/website-terms
+        - link "Powered By T.I.T Solutions" [ref=e744] [cursor=pointer]:
+          - /url: https://titegypt.com
