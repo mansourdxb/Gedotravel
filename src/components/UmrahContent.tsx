@@ -236,52 +236,86 @@ export function UmrahContent() {
 
       {/* Holy Cities */}
       <div className="p-6 md:p-8 bg-gray-50">
-        <h4 className="font-display text-xl md:text-2xl mb-6 text-center">
+        <h4 className="font-display text-xl md:text-2xl mb-8 text-center">
           {t("umrah.citiesSectionTitle")}
         </h4>
-        <div className="grid md:grid-cols-2 gap-6">
-          <div className="rounded-2xl overflow-hidden group">
-            <div className="relative aspect-[16/9]">
-              <Image
-                src="/images/umrah/makkah.jpg"
-                alt={t("umrah.makkahTitle")}
-                fill
-                className="object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
-              <div className="absolute bottom-0 p-5">
-                <div className="flex items-center gap-2 mb-1">
-                  <Star className="w-4 h-4 text-amber-400" />
-                  <h5 className="font-display text-lg text-white">
-                    {t("umrah.makkahTitle")}
-                  </h5>
-                </div>
-                <p className="text-xs text-white/80 leading-relaxed">
-                  {t("umrah.makkahDesc")}
-                </p>
+
+        {/* Makkah */}
+        <div className="mb-10">
+          <div className="grid md:grid-cols-2 gap-4 mb-5">
+            <div className="rounded-2xl overflow-hidden">
+              <div className="relative aspect-[4/3]">
+                <Image
+                  src="/images/umrah/makkah-haram.png"
+                  alt={t("umrah.makkahTitle")}
+                  fill
+                  className="object-cover"
+                />
+              </div>
+            </div>
+            <div className="rounded-2xl overflow-hidden">
+              <div className="relative aspect-[4/3]">
+                <Image
+                  src="/images/umrah/makkah-kaaba.png"
+                  alt={t("umrah.makkahSub1")}
+                  fill
+                  className="object-cover"
+                />
               </div>
             </div>
           </div>
-          <div className="rounded-2xl overflow-hidden group">
-            <div className="relative aspect-[16/9]">
-              <Image
-                src="/images/umrah/madinah.jpg"
-                alt={t("umrah.madinahTitle")}
-                fill
-                className="object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
-              <div className="absolute bottom-0 p-5">
-                <div className="flex items-center gap-2 mb-1">
-                  <Star className="w-4 h-4 text-emerald-400" />
-                  <h5 className="font-display text-lg text-white">
-                    {t("umrah.madinahTitle")}
-                  </h5>
-                </div>
-                <p className="text-xs text-white/80 leading-relaxed">
-                  {t("umrah.madinahDesc")}
-                </p>
+          <h5 className="font-display text-xl mb-2">{t("umrah.makkahTitle")}</h5>
+          <p className="text-sm text-muted-foreground leading-relaxed mb-4">
+            {t("umrah.makkahDesc")}
+          </p>
+          <div className="grid sm:grid-cols-2 gap-3">
+            <div className="bg-white rounded-xl p-4 border">
+              <h6 className="font-semibold text-sm mb-1">{t("umrah.makkahSub1")}</h6>
+              <p className="text-xs text-muted-foreground leading-relaxed">{t("umrah.makkahSub1Desc")}</p>
+            </div>
+            <div className="bg-white rounded-xl p-4 border">
+              <h6 className="font-semibold text-sm mb-1">{t("umrah.makkahSub2")}</h6>
+              <p className="text-xs text-muted-foreground leading-relaxed">{t("umrah.makkahSub2Desc")}</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Madinah */}
+        <div>
+          <div className="grid md:grid-cols-2 gap-4 mb-5">
+            <div className="rounded-2xl overflow-hidden">
+              <div className="relative aspect-[4/3]">
+                <Image
+                  src="/images/umrah/madinah-nabawi.png"
+                  alt={t("umrah.madinahTitle")}
+                  fill
+                  className="object-cover"
+                />
               </div>
+            </div>
+            <div className="rounded-2xl overflow-hidden">
+              <div className="relative aspect-[4/3]">
+                <Image
+                  src="/images/umrah/madinah-green-dome.png"
+                  alt={t("umrah.madinahSub1")}
+                  fill
+                  className="object-cover"
+                />
+              </div>
+            </div>
+          </div>
+          <h5 className="font-display text-xl mb-2">{t("umrah.madinahTitle")}</h5>
+          <p className="text-sm text-muted-foreground leading-relaxed mb-4">
+            {t("umrah.madinahDesc")}
+          </p>
+          <div className="grid sm:grid-cols-2 gap-3">
+            <div className="bg-white rounded-xl p-4 border">
+              <h6 className="font-semibold text-sm mb-1">{t("umrah.madinahSub1")}</h6>
+              <p className="text-xs text-muted-foreground leading-relaxed">{t("umrah.madinahSub1Desc")}</p>
+            </div>
+            <div className="bg-white rounded-xl p-4 border">
+              <h6 className="font-semibold text-sm mb-1">{t("umrah.madinahSub2")}</h6>
+              <p className="text-xs text-muted-foreground leading-relaxed">{t("umrah.madinahSub2Desc")}</p>
             </div>
           </div>
         </div>
