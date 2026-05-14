@@ -143,22 +143,23 @@ export default async function CatchAllPage({
   if (!slug || slug.length === 0) {
     return (
       <>
-        <HomeHeroSection />
-        <CardCarousel
-          title={t(l, "sections.destinationsTitle")}
-          subtitle={t(l, "sections.destinationsSubtitle")}
-          cards={destinations.map(d => ({ ...d, href: localizeHref(d.href, l) }))}
-          viewAllLabel={t(l, "sections.viewAllDestinations")}
-          viewAllHref={`${prefix}/destination/egypt`}
-        />
-        <CardCarousel
-          title={t(l, "sections.excursionsTitle")}
-          subtitle={t(l, "sections.excursionsSubtitle")}
-          cards={excursions.map(d => ({ ...d, href: localizeHref(d.href, l) }))}
-          viewAllLabel={t(l, "sections.viewAllTypes")}
-          viewAllHref={`${prefix}/excursions`}
-        />
-        <ReviewsSection />
+        <HomeHeroSection>
+          <CardCarousel
+            title={t(l, "sections.destinationsTitle")}
+            subtitle={t(l, "sections.destinationsSubtitle")}
+            cards={destinations.map(d => ({ ...d, href: localizeHref(d.href, l) }))}
+            viewAllLabel={t(l, "sections.viewAllDestinations")}
+            viewAllHref={`${prefix}/destination/egypt`}
+          />
+          <CardCarousel
+            title={t(l, "sections.excursionsTitle")}
+            subtitle={t(l, "sections.excursionsSubtitle")}
+            cards={excursions.map(d => ({ ...d, href: localizeHref(d.href, l) }))}
+            viewAllLabel={t(l, "sections.viewAllTypes")}
+            viewAllHref={`${prefix}/excursions`}
+          />
+          <ReviewsSection />
+        </HomeHeroSection>
         <PartnersSection />
       </>
     );
