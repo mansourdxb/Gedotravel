@@ -21,18 +21,19 @@ export function ServiceTabs({
   onTabChange?: (tab: number) => void;
 }) {
   const { t, locale } = useLocale();
-  const [localActive, setLocalActive] = useState(0);
+  const [localActive, setLocalActive] = useState(1);
   const active = activeTab ?? localActive;
   const setActive = onTabChange ?? setLocalActive;
 
   const tabs: { label: string; icon: LucideIcon }[] = [
+    { label: t("services.umrah"), icon: Moon },
     { label: t("services.packages"), icon: MapPin },
     { label: t("services.dayTrips"), icon: Compass },
-    { label: t("services.umrah"), icon: Moon },
     { label: t("services.hotels"), icon: Hotel },
   ];
 
   const panels = [
+    null,
     {
       title: t("services.packagesTitle"),
       desc: t("services.packagesDesc"),
@@ -45,7 +46,6 @@ export function ServiceTabs({
       href: `/${locale}/excursions`,
       btn: t("services.dayTripsBtn"),
     },
-    null,
     {
       title: t("services.hotelsTitle"),
       desc: t("services.hotelsDesc"),
@@ -78,7 +78,7 @@ export function ServiceTabs({
             })}
           </div>
 
-          {active !== 2 && panels[active] && (
+          {active !== 0 && panels[active] && (
             <div className="p-6 md:p-8 border-t">
               <h3 className="text-xl font-display mb-2">{panels[active]!.title}</h3>
               <p className="text-muted-foreground text-sm leading-relaxed mb-5 max-w-2xl">
@@ -94,7 +94,7 @@ export function ServiceTabs({
             </div>
           )}
 
-          {active === 2 && <UmrahContent />}
+          {active === 0 && <UmrahContent />}
         </div>
       </div>
     </div>

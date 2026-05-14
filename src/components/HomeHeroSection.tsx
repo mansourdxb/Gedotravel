@@ -8,7 +8,7 @@ export function HomeHeroSection() {
   const [activeTab, setActiveTab] = useState(0);
   return (
     <>
-      <HeroSlider umrahMode={activeTab === 2} />
+      <HeroSlider umrahMode={activeTab === 0} />
       <ServiceTabs activeTab={activeTab} onTabChange={setActiveTab} />
     </>
   );
