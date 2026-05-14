@@ -111,8 +111,8 @@ export function UmrahContent() {
 
   const stats = [
     { value: "50+", label: t("umrah.statPartners") },
-    { value: "100+", label: t("umrah.statPackages") },
-    { value: "10,000+", label: t("umrah.statPilgrims") },
+    { value: "+20", label: t("umrah.statPackages") },
+    { value: "+500", label: t("umrah.statPilgrims") },
   ];
 
   const faqs = [

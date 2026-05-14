@@ -3,7 +3,7 @@ import ar from "../../messages/ar.json";
 
 export type Locale = "en" | "ar";
 export const locales: Locale[] = ["en", "ar"];
-export const defaultLocale: Locale = "en";
+export const defaultLocale: Locale = "ar";
 
 type Messages = Record<string, unknown>;
 const allMessages: Record<Locale, Messages> = { en, ar };
