@@ -86,6 +86,51 @@ function PageHero({
   );
 }
 
+export function generateStaticParams() {
+  const locales = ["en", "ar"];
+  const staticSlugs = [
+    [],
+    ["destination", "egypt"],
+    ["destination", "egypt", "aswan"],
+    ["destination", "egypt", "cairo"],
+    ["destination", "egypt", "hurghada"],
+    ["destination", "egypt", "luxor"],
+    ["destination", "egypt", "marsa-alam"],
+    ["destination", "egypt", "mersa-matruh"],
+    ["destination", "egypt", "sharm-el-sheikh"],
+    ["excursions"],
+    ["about"],
+    ["contact"],
+    ["news"],
+    ["ibe"],
+    ["hotels-destinations"],
+    ["affiliated-companies"],
+    ["partner"],
+    ["branches"],
+    ["destination-handbook"],
+    ["testimonials"],
+    ["privacy"],
+    ["terms"],
+    ["travel-idea", "snorkeling"],
+    ["travel-idea", "luxury-premium-experiences"],
+    ["travel-idea", "boat-trips-luxury-cruises"],
+    ["travel-idea", "safaris"],
+    ["travel-idea", "fast-track-assistance-services"],
+    ["travel-idea", "cultural-historical-tours"],
+    ["travel-idea", "adventure-desert-tours"],
+    ["travel-idea", "city-breaks"],
+    ["travel-idea", "night-tours-entertainment"],
+    ["travel-idea", "private-airport-transfers"],
+  ];
+
+  return locales.flatMap((locale) =>
+    staticSlugs.map((slug) => ({
+      locale,
+      slug: slug.length === 0 ? undefined : slug,
+    }))
+  );
+}
+
 export default async function CatchAllPage({
   params,
 }: {
