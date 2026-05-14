@@ -21,7 +21,7 @@ export function ServiceTabs({
   onTabChange?: (tab: number) => void;
 }) {
   const { t, locale } = useLocale();
-  const [localActive, setLocalActive] = useState(1);
+  const [localActive, setLocalActive] = useState(0);
   const active = activeTab ?? localActive;
   const setActive = onTabChange ?? setLocalActive;
 

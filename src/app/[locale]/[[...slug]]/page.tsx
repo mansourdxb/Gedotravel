@@ -159,8 +159,8 @@ export default async function CatchAllPage({
             viewAllHref={`${prefix}/excursions`}
           />
           <ReviewsSection />
+          <PartnersSection />
         </HomeHeroSection>
-        <PartnersSection />
       </>
     );
   }

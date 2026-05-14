@@ -5,7 +5,7 @@ import { HeroSlider } from "./HeroSlider";
 import { ServiceTabs } from "./ServiceTabs";
 
 export function HomeHeroSection({ children }: { children?: ReactNode }) {
-  const [activeTab, setActiveTab] = useState(1);
+  const [activeTab, setActiveTab] = useState(0);
   return (
     <>
       <HeroSlider umrahMode={activeTab === 0} />
