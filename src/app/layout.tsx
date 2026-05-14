@@ -26,7 +26,9 @@ export const metadata: Metadata = {
   description:
     "Discover the best travel deals, hotel bookings, and travel packages with Gedotravel. Your journey begins here!",
   icons: {
-    icon: "/seo/favicon.ico",
+    icon: [
+      { url: "/images/logo-white.png", type: "image/png" },
+    ],
     apple: "/images/logo-dark.png",
   },
   openGraph: {
