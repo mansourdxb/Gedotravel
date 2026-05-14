@@ -656,7 +656,7 @@ function ContactPage({ locale }: { locale: Locale }) {
                 </div>
                 <div>
                   <h3 className="font-semibold mb-1">{t(locale, "contact.phone")}</h3>
-                  <p className="text-muted-foreground text-sm">
+                  <p dir="ltr" className="text-muted-foreground text-sm">
                     {contactInfo.phone}
                   </p>
                   <p className="text-xs text-muted-foreground mt-0.5">
@@ -980,7 +980,7 @@ function OfficesPage({ locale }: { locale: Locale }) {
                 {office.city}, {office.country}
               </h3>
               <p className="text-sm text-muted-foreground">{office.address}</p>
-              <p className="text-sm text-muted-foreground mt-1">
+              <p dir="ltr" className="text-sm text-muted-foreground mt-1">
                 {office.phone}
               </p>
             </div>
@@ -1186,7 +1186,7 @@ function BranchesPage({ locale }: { locale: Locale }) {
               <MapPin className="w-6 h-6 text-[rgb(230,0,0)] mb-3" />
               <h3 className="font-semibold mb-2">{b.name}</h3>
               <p className="text-sm text-muted-foreground">{b.address}</p>
-              <p className="text-sm text-muted-foreground mt-1">{b.phone}</p>
+              <p dir="ltr" className="text-sm text-muted-foreground mt-1">{b.phone}</p>
               <p className="text-xs text-muted-foreground mt-2 flex items-center gap-1">
                 <Clock className="w-3.5 h-3.5" />
                 {b.hours}

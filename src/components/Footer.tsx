@@ -138,7 +138,7 @@ export function Footer() {
               <div className="flex items-start gap-3">
                 <Phone className="w-5 h-5 text-white/60 mt-0.5 shrink-0" />
                 <div>
-                  <p className="text-white font-semibold text-sm">
+                  <p dir="ltr" className="text-white font-semibold text-sm">
                     {contactInfo.phone}
                   </p>
                   <p className="text-white/50 text-xs mt-0.5">
