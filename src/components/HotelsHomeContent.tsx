@@ -26,9 +26,9 @@ export function HotelsHomeContent() {
 
   const regions = [
     { key: "hotelsCairo", descKey: "hotelsCairoDesc", image: "/images/destinations/cairo.jpg" },
-    { key: "hotelsRedSea", descKey: "hotelsRedSeaDesc", image: "/images/slides/slider1.jpg" },
-    { key: "hotelsSharm", descKey: "hotelsSharmDesc", image: "/images/slides/slider5.jpg" },
-    { key: "hotelsUpperEgypt", descKey: "hotelsUpperEgyptDesc", image: "/images/slides/slider4.jpg" },
+    { key: "hotelsRedSea", descKey: "hotelsRedSeaDesc", image: "/images/hotels/europe.jpg" },
+    { key: "hotelsSharm", descKey: "hotelsSharmDesc", image: "/images/hotels/gulf.jpg" },
+    { key: "hotelsUpperEgypt", descKey: "hotelsUpperEgyptDesc", image: "/images/hotels/worldwide.jpg" },
   ];
 
   return (
@@ -60,7 +60,7 @@ export function HotelsHomeContent() {
           </div>
           <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
             <Image
-              src="/images/slides/slider5.jpg"
+              src="/images/hotels/hero.jpg"
               alt=""
               fill
               className="object-cover"
