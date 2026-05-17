@@ -1,7 +1,7 @@
 "use client";
 
 import { useActionState } from "react";
-import { submitNewsletterForm } from "@/app/actions/email";
+import { submitNewsletterForm } from "@/actions/email";
 import { useLocale } from "@/lib/i18n";
 
 export function NewsletterForm() {

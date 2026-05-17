@@ -1,7 +1,7 @@
 "use client";
 
 import { useActionState } from "react";
-import { submitPartnerForm } from "@/app/actions/email";
+import { submitPartnerForm } from "@/actions/email";
 import { useLocale } from "@/lib/i18n";
 
 const inputCls = "w-full px-4 py-3 border rounded-lg text-sm outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)]";
