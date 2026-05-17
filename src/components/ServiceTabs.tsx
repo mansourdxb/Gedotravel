@@ -4,9 +4,10 @@ import { useState } from "react";
 import Link from "next/link";
 import {
   MapPin,
-  Compass,
+  Plane,
   Moon,
   Hotel,
+  Stamp,
   ChevronRight,
   type LucideIcon,
 } from "lucide-react";
@@ -27,24 +28,31 @@ export function ServiceTabs({
 
   const tabs: { label: string; icon: LucideIcon }[] = [
     { label: t("services.umrah"), icon: Moon },
+    { label: t("services.dayTrips"), icon: Plane },
+    { label: t("services.visas"), icon: Stamp },
     { label: t("services.packages"), icon: MapPin },
-    { label: t("services.dayTrips"), icon: Compass },
     { label: t("services.hotels"), icon: Hotel },
   ];
 
   const panels = [
     null,
     {
+      title: t("services.dayTripsTitle"),
+      desc: t("services.dayTripsDesc"),
+      href: `/${locale}/flights`,
+      btn: t("services.dayTripsBtn"),
+    },
+    {
+      title: t("services.visasTitle"),
+      desc: t("services.visasDesc"),
+      href: `/${locale}/visas`,
+      btn: t("services.visasBtn"),
+    },
+    {
       title: t("services.packagesTitle"),
       desc: t("services.packagesDesc"),
       href: `/${locale}/ibe`,
       btn: t("services.packagesBtn"),
-    },
-    {
-      title: t("services.dayTripsTitle"),
-      desc: t("services.dayTripsDesc"),
-      href: `/${locale}/excursions`,
-      btn: t("services.dayTripsBtn"),
     },
     {
       title: t("services.hotelsTitle"),

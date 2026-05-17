@@ -18,6 +18,14 @@ import {
   Search,
   Bed,
   ChevronRight,
+  Plane,
+  PlaneTakeoff,
+  DollarSign,
+  Headphones,
+  SlidersHorizontal,
+  Stamp,
+  ShieldCheck,
+  Zap,
 } from "lucide-react";
 import {
   destinations,
@@ -98,6 +106,8 @@ export function generateStaticParams() {
     ["destination", "egypt", "marsa-alam"],
     ["destination", "egypt", "mersa-matruh"],
     ["destination", "egypt", "sharm-el-sheikh"],
+    ["flights"],
+    ["visas"],
     ["excursions"],
     ["about"],
     ["contact"],
@@ -169,6 +179,8 @@ export default async function CatchAllPage({
 
   const routes: Record<string, () => React.ReactNode> = {
     "destination/egypt": () => <DestinationsPage locale={l} />,
+    flights: () => <FlightsPage locale={l} />,
+    visas: () => <VisasPage locale={l} />,
     excursions: () => <ExcursionsPage locale={l} />,
     about: () => <AboutPage locale={l} />,
     contact: () => <ContactPage locale={l} />,
@@ -347,6 +359,329 @@ function DestinationDetailPage({
               )
             )}
           </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* ─── FLIGHTS ─── */
+
+function FlightsPage({ locale }: { locale: Locale }) {
+  const reasons = [
+    { icon: DollarSign, titleKey: "reason1Title", descKey: "reason1Desc" },
+    { icon: Globe, titleKey: "reason2Title", descKey: "reason2Desc" },
+    { icon: SlidersHorizontal, titleKey: "reason3Title", descKey: "reason3Desc" },
+    { icon: Headphones, titleKey: "reason4Title", descKey: "reason4Desc" },
+  ];
+
+  return (
+    <div>
+      <div className="relative min-h-[45vh] md:min-h-[55vh] flex items-end">
+        <Image
+          src="/images/slides/slider6-privatejet.webp"
+          alt=""
+          fill
+          className="object-cover"
+          priority
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-black/50" />
+        <div className="relative w-full pb-10">
+          <div className="container mx-auto px-4 lg:px-8">
+            <div className="flex items-center gap-3 mb-3">
+              <PlaneTakeoff className="w-8 h-8 text-white rtl:scale-x-[-1]" />
+            </div>
+            <h1 className="text-white text-4xl md:text-5xl font-display">
+              {t(locale, "flights.heroHeading")}
+            </h1>
+            <p className="text-white/80 mt-3 max-w-2xl text-lg">
+              {t(locale, "flights.heroDesc")}
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="container mx-auto px-4 lg:px-8 py-12">
+        <BackLink href={`/${locale}`} label={t(locale, "common.backToHome")} />
+
+        <h2 className="font-display text-2xl md:text-3xl mb-8">
+          {t(locale, "flights.whyTitle")}
+        </h2>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+          {reasons.map((r) => (
+            <div key={r.titleKey} className="p-6 border rounded-xl">
+              <r.icon className="w-8 h-8 text-[rgb(230,0,0)] mb-4" />
+              <h3 className="font-semibold text-lg mb-2">
+                {t(locale, `flights.${r.titleKey}`)}
+              </h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">
+                {t(locale, `flights.${r.descKey}`)}
+              </p>
+            </div>
+          ))}
+        </div>
+
+        <div className="bg-gray-50 rounded-2xl p-8 md:p-10 mb-16">
+          <Plane className="w-8 h-8 text-[rgb(230,0,0)] mb-4" />
+          <h2 className="font-display text-2xl mb-3">
+            {t(locale, "flights.airlinesTitle")}
+          </h2>
+          <p className="text-muted-foreground max-w-3xl leading-relaxed">
+            {t(locale, "flights.airlinesDesc")}
+          </p>
+        </div>
+
+        <div className="max-w-3xl mx-auto">
+          <div className="text-center mb-8">
+            <h2 className="font-display text-2xl md:text-3xl mb-3">
+              {t(locale, "flights.formTitle")}
+            </h2>
+            <p className="text-muted-foreground">
+              {t(locale, "flights.formDesc")}
+            </p>
+          </div>
+
+          <form className="space-y-4 bg-white border rounded-2xl p-6 md:p-8 shadow-sm" action="#">
+            <div className="grid sm:grid-cols-2 gap-4">
+              <input
+                type="text"
+                placeholder={t(locale, "flights.fullName")}
+                className="w-full px-4 py-3 border rounded-lg text-sm outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)]"
+              />
+              <input
+                type="email"
+                placeholder={t(locale, "flights.email")}
+                className="w-full px-4 py-3 border rounded-lg text-sm outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)]"
+              />
+            </div>
+            <input
+              type="tel"
+              placeholder={t(locale, "flights.phone")}
+              className="w-full px-4 py-3 border rounded-lg text-sm outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)]"
+            />
+            <div className="grid sm:grid-cols-2 gap-4">
+              <input
+                type="text"
+                placeholder={t(locale, "flights.from")}
+                className="w-full px-4 py-3 border rounded-lg text-sm outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)]"
+              />
+              <input
+                type="text"
+                placeholder={t(locale, "flights.to")}
+                className="w-full px-4 py-3 border rounded-lg text-sm outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)]"
+              />
+            </div>
+            <div className="grid sm:grid-cols-2 gap-4">
+              <input
+                type="date"
+                placeholder={t(locale, "flights.departDate")}
+                className="w-full px-4 py-3 border rounded-lg text-sm outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)]"
+              />
+              <input
+                type="date"
+                placeholder={t(locale, "flights.returnDate")}
+                className="w-full px-4 py-3 border rounded-lg text-sm outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)]"
+              />
+            </div>
+            <div className="grid sm:grid-cols-3 gap-4">
+              <input
+                type="number"
+                min={1}
+                defaultValue={1}
+                placeholder={t(locale, "flights.passengers")}
+                className="w-full px-4 py-3 border rounded-lg text-sm outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)]"
+              />
+              <select className="w-full px-4 py-3 border rounded-lg text-sm text-gray-500 outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)]">
+                <option>{t(locale, "flights.cabinClass")}</option>
+                <option>{t(locale, "flights.classEconomy")}</option>
+                <option>{t(locale, "flights.classBusiness")}</option>
+                <option>{t(locale, "flights.classFirst")}</option>
+              </select>
+              <select className="w-full px-4 py-3 border rounded-lg text-sm text-gray-500 outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)]">
+                <option>{t(locale, "flights.tripType")}</option>
+                <option>{t(locale, "flights.oneWay")}</option>
+                <option>{t(locale, "flights.roundTrip")}</option>
+                <option>{t(locale, "flights.multiCity")}</option>
+              </select>
+            </div>
+            <textarea
+              placeholder={t(locale, "flights.notes")}
+              rows={3}
+              className="w-full px-4 py-3 border rounded-lg text-sm outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)] resize-none"
+            />
+            <button
+              type="submit"
+              className="w-full bg-[rgb(230,0,0)] text-white px-8 py-3 rounded-lg font-medium hover:bg-red-700 transition-colors flex items-center justify-center gap-2"
+            >
+              <Plane className="w-4 h-4" />
+              {t(locale, "flights.submit")}
+            </button>
+            <p className="text-xs text-center text-muted-foreground">
+              {t(locale, "flights.formNote")}
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* ─── VISAS ─── */
+
+function VisasPage({ locale }: { locale: Locale }) {
+  const reasons = [
+    { icon: Globe, titleKey: "reason1Title", descKey: "reason1Desc" },
+    { icon: ShieldCheck, titleKey: "reason2Title", descKey: "reason2Desc" },
+    { icon: Award, titleKey: "reason3Title", descKey: "reason3Desc" },
+    { icon: Zap, titleKey: "reason4Title", descKey: "reason4Desc" },
+  ];
+
+  const visaTypes = [
+    { key: "typeSchengen", descKey: "typeSchengenDesc" },
+    { key: "typeUK", descKey: "typeUKDesc" },
+    { key: "typeUSA", descKey: "typeUSADesc" },
+    { key: "typeUmrah", descKey: "typeUmrahDesc" },
+    { key: "typeCanada", descKey: "typeCanadaDesc" },
+    { key: "typeAustralia", descKey: "typeAustraliaDesc" },
+  ];
+
+  return (
+    <div>
+      <div className="relative min-h-[45vh] md:min-h-[55vh] flex items-end">
+        <Image
+          src="/images/slides/slider9-passport.jpg"
+          alt=""
+          fill
+          className="object-cover"
+          priority
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-black/50" />
+        <div className="relative w-full pb-10">
+          <div className="container mx-auto px-4 lg:px-8">
+            <div className="flex items-center gap-3 mb-3">
+              <Stamp className="w-8 h-8 text-white" />
+            </div>
+            <h1 className="text-white text-4xl md:text-5xl font-display">
+              {t(locale, "visas.heroHeading")}
+            </h1>
+            <p className="text-white/80 mt-3 max-w-2xl text-lg">
+              {t(locale, "visas.heroDesc")}
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="container mx-auto px-4 lg:px-8 py-12">
+        <BackLink href={`/${locale}`} label={t(locale, "common.backToHome")} />
+
+        {/* Why choose us */}
+        <h2 className="font-display text-2xl md:text-3xl mb-8">
+          {t(locale, "visas.whyTitle")}
+        </h2>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+          {reasons.map((r) => (
+            <div key={r.titleKey} className="p-6 border rounded-xl">
+              <r.icon className="w-8 h-8 text-[rgb(230,0,0)] mb-4" />
+              <h3 className="font-semibold text-lg mb-2">
+                {t(locale, `visas.${r.titleKey}`)}
+              </h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">
+                {t(locale, `visas.${r.descKey}`)}
+              </p>
+            </div>
+          ))}
+        </div>
+
+        {/* Visa types grid */}
+        <h2 className="font-display text-2xl md:text-3xl mb-8">
+          {t(locale, "visas.typesTitle")}
+        </h2>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+          {visaTypes.map((v) => (
+            <div key={v.key} className="relative p-6 border rounded-xl overflow-hidden group hover:shadow-lg transition-shadow">
+              <Stamp className="w-6 h-6 text-[rgb(230,0,0)] mb-3" />
+              <h3 className="font-semibold text-lg mb-2">
+                {t(locale, `visas.${v.key}`)}
+              </h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">
+                {t(locale, `visas.${v.descKey}`)}
+              </p>
+            </div>
+          ))}
+        </div>
+
+        {/* Request form */}
+        <div className="max-w-3xl mx-auto">
+          <div className="text-center mb-8">
+            <h2 className="font-display text-2xl md:text-3xl mb-3">
+              {t(locale, "visas.formTitle")}
+            </h2>
+            <p className="text-muted-foreground">
+              {t(locale, "visas.formDesc")}
+            </p>
+          </div>
+
+          <form className="space-y-4 bg-white border rounded-2xl p-6 md:p-8 shadow-sm" action="#">
+            <div className="grid sm:grid-cols-2 gap-4">
+              <input
+                type="text"
+                placeholder={t(locale, "visas.fullName")}
+                className="w-full px-4 py-3 border rounded-lg text-sm outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)]"
+              />
+              <input
+                type="email"
+                placeholder={t(locale, "visas.email")}
+                className="w-full px-4 py-3 border rounded-lg text-sm outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)]"
+              />
+            </div>
+            <div className="grid sm:grid-cols-2 gap-4">
+              <input
+                type="tel"
+                placeholder={t(locale, "visas.phone")}
+                className="w-full px-4 py-3 border rounded-lg text-sm outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)]"
+              />
+              <input
+                type="text"
+                placeholder={t(locale, "visas.nationality")}
+                className="w-full px-4 py-3 border rounded-lg text-sm outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)]"
+              />
+            </div>
+            <div className="grid sm:grid-cols-2 gap-4">
+              <input
+                type="text"
+                placeholder={t(locale, "visas.destination")}
+                className="w-full px-4 py-3 border rounded-lg text-sm outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)]"
+              />
+              <select className="w-full px-4 py-3 border rounded-lg text-sm text-gray-500 outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)]">
+                <option>{t(locale, "visas.visaType")}</option>
+                <option>{t(locale, "visas.typeTourist")}</option>
+                <option>{t(locale, "visas.typeBusiness")}</option>
+                <option>{t(locale, "visas.typeTransit")}</option>
+                <option>{t(locale, "visas.typeUmrahOption")}</option>
+                <option>{t(locale, "visas.typeFamily")}</option>
+              </select>
+            </div>
+            <input
+              type="date"
+              placeholder={t(locale, "visas.travelDate")}
+              className="w-full px-4 py-3 border rounded-lg text-sm outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)]"
+            />
+            <textarea
+              placeholder={t(locale, "visas.notes")}
+              rows={3}
+              className="w-full px-4 py-3 border rounded-lg text-sm outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)] resize-none"
+            />
+            <button
+              type="submit"
+              className="w-full bg-[rgb(230,0,0)] text-white px-8 py-3 rounded-lg font-medium hover:bg-red-700 transition-colors flex items-center justify-center gap-2"
+            >
+              <Stamp className="w-4 h-4" />
+              {t(locale, "visas.submit")}
+            </button>
+            <p className="text-xs text-center text-muted-foreground">
+              {t(locale, "visas.formNote")}
+            </p>
+          </form>
         </div>
       </div>
     </div>
