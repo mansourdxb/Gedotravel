@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Phone, Mail, MapPin } from "lucide-react";
 import { contactInfo, socialLinks } from "@/lib/data";
 import { useLocale } from "@/lib/i18n";
+import { NewsletterForm } from "@/components/forms/NewsletterForm";
 
 function SocialIcon({ platform }: { platform: string }) {
   const colors: Record<string, string> = {
@@ -90,18 +91,7 @@ export function Footer() {
                 {t("footer.newsletterSubtitle")}
               </p>
             </div>
-            <div className="w-full md:w-auto">
-              <div className="flex gap-0">
-                <input
-                  type="email"
-                  placeholder={t("footer.emailPlaceholder")}
-                  className="flex-1 md:w-[280px] px-4 py-3 bg-white text-gray-900 text-sm rounded-s-lg outline-none placeholder:text-gray-400"
-                />
-                <button className="bg-[rgb(230,0,0)] text-white px-6 py-3 rounded-e-lg font-semibold text-sm hover:bg-red-700 transition-colors whitespace-nowrap">
-                  {t("footer.subscribe")}
-                </button>
-              </div>
-            </div>
+            <NewsletterForm />
           </div>
         </div>
       </div>

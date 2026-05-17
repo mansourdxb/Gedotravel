@@ -39,6 +39,10 @@ import { HomeHeroSection } from "@/components/HomeHeroSection";
 import { CardCarousel } from "@/components/CardCarousel";
 import { ReviewsSection } from "@/components/ReviewsSection";
 import { PartnersSection } from "@/components/PartnersSection";
+import { ContactForm } from "@/components/forms/ContactForm";
+import { FlightsForm } from "@/components/forms/FlightsForm";
+import { VisasForm } from "@/components/forms/VisasForm";
+import { PartnerForm } from "@/components/forms/PartnerForm";
 import { t, type Locale } from "@/lib/i18n-config";
 
 function localizeHref(href: string, locale: Locale): string {
@@ -441,85 +445,7 @@ function FlightsPage({ locale }: { locale: Locale }) {
             </p>
           </div>
 
-          <form className="space-y-4 bg-white border rounded-2xl p-6 md:p-8 shadow-sm" action="#">
-            <div className="grid sm:grid-cols-2 gap-4">
-              <input
-                type="text"
-                placeholder={t(locale, "flights.fullName")}
-                className="w-full px-4 py-3 border rounded-lg text-sm outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)]"
-              />
-              <input
-                type="email"
-                placeholder={t(locale, "flights.email")}
-                className="w-full px-4 py-3 border rounded-lg text-sm outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)]"
-              />
-            </div>
-            <input
-              type="tel"
-              placeholder={t(locale, "flights.phone")}
-              className="w-full px-4 py-3 border rounded-lg text-sm outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)]"
-            />
-            <div className="grid sm:grid-cols-2 gap-4">
-              <input
-                type="text"
-                placeholder={t(locale, "flights.from")}
-                className="w-full px-4 py-3 border rounded-lg text-sm outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)]"
-              />
-              <input
-                type="text"
-                placeholder={t(locale, "flights.to")}
-                className="w-full px-4 py-3 border rounded-lg text-sm outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)]"
-              />
-            </div>
-            <div className="grid sm:grid-cols-2 gap-4">
-              <input
-                type="date"
-                placeholder={t(locale, "flights.departDate")}
-                className="w-full px-4 py-3 border rounded-lg text-sm outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)]"
-              />
-              <input
-                type="date"
-                placeholder={t(locale, "flights.returnDate")}
-                className="w-full px-4 py-3 border rounded-lg text-sm outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)]"
-              />
-            </div>
-            <div className="grid sm:grid-cols-3 gap-4">
-              <input
-                type="number"
-                min={1}
-                defaultValue={1}
-                placeholder={t(locale, "flights.passengers")}
-                className="w-full px-4 py-3 border rounded-lg text-sm outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)]"
-              />
-              <select className="w-full px-4 py-3 border rounded-lg text-sm text-gray-500 outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)]">
-                <option>{t(locale, "flights.cabinClass")}</option>
-                <option>{t(locale, "flights.classEconomy")}</option>
-                <option>{t(locale, "flights.classBusiness")}</option>
-                <option>{t(locale, "flights.classFirst")}</option>
-              </select>
-              <select className="w-full px-4 py-3 border rounded-lg text-sm text-gray-500 outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)]">
-                <option>{t(locale, "flights.tripType")}</option>
-                <option>{t(locale, "flights.oneWay")}</option>
-                <option>{t(locale, "flights.roundTrip")}</option>
-                <option>{t(locale, "flights.multiCity")}</option>
-              </select>
-            </div>
-            <textarea
-              placeholder={t(locale, "flights.notes")}
-              rows={3}
-              className="w-full px-4 py-3 border rounded-lg text-sm outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)] resize-none"
-            />
-            <button
-              type="submit"
-              className="w-full bg-[rgb(230,0,0)] text-white px-8 py-3 rounded-lg font-medium hover:bg-red-700 transition-colors flex items-center justify-center gap-2"
-            >
-              <Plane className="w-4 h-4" />
-              {t(locale, "flights.submit")}
-            </button>
-            <p className="text-xs text-center text-muted-foreground">
-              {t(locale, "flights.formNote")}
-            </p>
-          </form>
+          <FlightsForm />
         </div>
       </div>
     </div>
@@ -621,67 +547,7 @@ function VisasPage({ locale }: { locale: Locale }) {
             </p>
           </div>
 
-          <form className="space-y-4 bg-white border rounded-2xl p-6 md:p-8 shadow-sm" action="#">
-            <div className="grid sm:grid-cols-2 gap-4">
-              <input
-                type="text"
-                placeholder={t(locale, "visas.fullName")}
-                className="w-full px-4 py-3 border rounded-lg text-sm outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)]"
-              />
-              <input
-                type="email"
-                placeholder={t(locale, "visas.email")}
-                className="w-full px-4 py-3 border rounded-lg text-sm outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)]"
-              />
-            </div>
-            <div className="grid sm:grid-cols-2 gap-4">
-              <input
-                type="tel"
-                placeholder={t(locale, "visas.phone")}
-                className="w-full px-4 py-3 border rounded-lg text-sm outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)]"
-              />
-              <input
-                type="text"
-                placeholder={t(locale, "visas.nationality")}
-                className="w-full px-4 py-3 border rounded-lg text-sm outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)]"
-              />
-            </div>
-            <div className="grid sm:grid-cols-2 gap-4">
-              <input
-                type="text"
-                placeholder={t(locale, "visas.destination")}
-                className="w-full px-4 py-3 border rounded-lg text-sm outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)]"
-              />
-              <select className="w-full px-4 py-3 border rounded-lg text-sm text-gray-500 outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)]">
-                <option>{t(locale, "visas.visaType")}</option>
-                <option>{t(locale, "visas.typeTourist")}</option>
-                <option>{t(locale, "visas.typeBusiness")}</option>
-                <option>{t(locale, "visas.typeTransit")}</option>
-                <option>{t(locale, "visas.typeUmrahOption")}</option>
-                <option>{t(locale, "visas.typeFamily")}</option>
-              </select>
-            </div>
-            <input
-              type="date"
-              placeholder={t(locale, "visas.travelDate")}
-              className="w-full px-4 py-3 border rounded-lg text-sm outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)]"
-            />
-            <textarea
-              placeholder={t(locale, "visas.notes")}
-              rows={3}
-              className="w-full px-4 py-3 border rounded-lg text-sm outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)] resize-none"
-            />
-            <button
-              type="submit"
-              className="w-full bg-[rgb(230,0,0)] text-white px-8 py-3 rounded-lg font-medium hover:bg-red-700 transition-colors flex items-center justify-center gap-2"
-            >
-              <Stamp className="w-4 h-4" />
-              {t(locale, "visas.submit")}
-            </button>
-            <p className="text-xs text-center text-muted-foreground">
-              {t(locale, "visas.formNote")}
-            </p>
-          </form>
+          <VisasForm />
         </div>
       </div>
     </div>
@@ -938,49 +804,7 @@ function ContactPage({ locale }: { locale: Locale }) {
         <div className="grid md:grid-cols-2 gap-12 max-w-5xl">
           <div>
             <h2 className="font-display text-2xl mb-6">{t(locale, "contact.sendUsMessage")}</h2>
-            <form className="space-y-4" action="#">
-              <div className="grid sm:grid-cols-2 gap-4">
-                <input
-                  type="text"
-                  placeholder={t(locale, "contact.firstName")}
-                  className="w-full px-4 py-3 border rounded-lg text-sm outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)]"
-                />
-                <input
-                  type="text"
-                  placeholder={t(locale, "contact.lastName")}
-                  className="w-full px-4 py-3 border rounded-lg text-sm outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)]"
-                />
-              </div>
-              <input
-                type="email"
-                placeholder={t(locale, "contact.emailAddress")}
-                className="w-full px-4 py-3 border rounded-lg text-sm outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)]"
-              />
-              <input
-                type="tel"
-                placeholder={t(locale, "contact.phoneNumber")}
-                className="w-full px-4 py-3 border rounded-lg text-sm outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)]"
-              />
-              <select className="w-full px-4 py-3 border rounded-lg text-sm text-gray-500 outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)]">
-                <option>{t(locale, "contact.selectSubject")}</option>
-                <option>{t(locale, "contact.generalInquiry")}</option>
-                <option>{t(locale, "contact.tourBooking")}</option>
-                <option>{t(locale, "contact.corporateMice")}</option>
-                <option>{t(locale, "contact.partnership")}</option>
-                <option>{t(locale, "contact.feedback")}</option>
-              </select>
-              <textarea
-                placeholder={t(locale, "contact.yourMessage")}
-                rows={5}
-                className="w-full px-4 py-3 border rounded-lg text-sm outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)] resize-none"
-              />
-              <button
-                type="submit"
-                className="bg-[rgb(230,0,0)] text-white px-8 py-3 rounded-lg font-medium hover:bg-red-700 transition-colors"
-              >
-                {t(locale, "common.sendMessage")}
-              </button>
-            </form>
+            <ContactForm />
           </div>
 
           <div>
@@ -1423,42 +1247,7 @@ function PartnerPage({ locale }: { locale: Locale }) {
           </div>
           <div>
             <h2 className="font-display text-2xl mb-4">{t(locale, "partnerPage.partnerInquiry")}</h2>
-            <form className="space-y-4" action="#">
-              <input
-                type="text"
-                placeholder={t(locale, "partnerPage.companyName")}
-                className="w-full px-4 py-3 border rounded-lg text-sm outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)]"
-              />
-              <input
-                type="text"
-                placeholder={t(locale, "partnerPage.contactPerson")}
-                className="w-full px-4 py-3 border rounded-lg text-sm outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)]"
-              />
-              <input
-                type="email"
-                placeholder={t(locale, "contact.emailAddress")}
-                className="w-full px-4 py-3 border rounded-lg text-sm outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)]"
-              />
-              <select className="w-full px-4 py-3 border rounded-lg text-sm text-gray-500 outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)]">
-                <option>{t(locale, "partnerPage.partnershipType")}</option>
-                <option>{t(locale, "partnerPage.travelAgency")}</option>
-                <option>{t(locale, "partnerPage.hotelResort")}</option>
-                <option>{t(locale, "partnerPage.transportProvider")}</option>
-                <option>{t(locale, "partnerPage.tourOperator")}</option>
-                <option>{t(locale, "partnerPage.other")}</option>
-              </select>
-              <textarea
-                placeholder={t(locale, "partnerPage.tellAboutBusiness")}
-                rows={4}
-                className="w-full px-4 py-3 border rounded-lg text-sm outline-none focus:ring-2 focus:ring-[rgb(230,0,0)]/20 focus:border-[rgb(230,0,0)] resize-none"
-              />
-              <button
-                type="submit"
-                className="bg-[rgb(230,0,0)] text-white px-8 py-3 rounded-lg font-medium hover:bg-red-700 transition-colors"
-              >
-                {t(locale, "partnerPage.submitInquiry")}
-              </button>
-            </form>
+            <PartnerForm />
           </div>
         </div>
       </div>

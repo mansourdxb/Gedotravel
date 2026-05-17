@@ -173,6 +173,7 @@
     "newsletterSubtitle": "Join our mailing list to receive monthly news and updates about our developments",
     "emailPlaceholder": "Enter Your Email",
     "subscribe": "Subscribe",
+    "subscribeSuccess": "Thank you for subscribing!",
     "ourServices": "Our Services",
     "topDestinations": "Top Destinations",
     "aboutUsTitle": "About Us",
@@ -216,6 +217,7 @@
     "bookNow": "Book Now",
     "learnMore": "Learn More",
     "sendMessage": "Send Message",
+    "sending": "Sending...",
     "submitApplication": "Submit Application",
     "clearFilters": "Clear filters",
     "noPackagesFound": "No packages found",
@@ -317,6 +319,7 @@
     "partnership": "Partnership",
     "feedback": "Feedback",
     "yourMessage": "Your Message",
+    "successMessage": "Thank you! Your message has been sent. We'll get back to you shortly.",
     "phone": "Phone",
     "email": "Email",
     "address": "Address",
@@ -344,7 +347,8 @@
     "tourOperator": "Tour Operator",
     "other": "Other",
     "tellAboutBusiness": "Tell us about your business",
-    "submitInquiry": "Submit Inquiry"
+    "submitInquiry": "Submit Inquiry",
+    "successMessage": "Thank you! Your inquiry has been submitted. Our team will be in touch soon."
   },
   "handbook": {
     "bestTime": "Best Time to Visit",
@@ -471,7 +475,8 @@
     "travelDate": "Planned Travel Date",
     "notes": "Additional Notes (e.g. previous visa rejections, group applications)",
     "submit": "Submit Visa Request",
-    "formNote": "Our visa team will contact you within 24 hours with requirements and next steps."
+    "formNote": "Our visa team will contact you within 24 hours with requirements and next steps.",
+    "successMessage": "Thank you! Your visa request has been submitted. Our team will contact you within 24 hours."
   },
   "flights": {
     "heroHeading": "Fly Anywhere with Gedotravel",
@@ -507,7 +512,8 @@
     "multiCity": "Multi-City",
     "notes": "Additional Notes (e.g. preferred airlines, layover preferences)",
     "submit": "Send Flight Request",
-    "formNote": "Our team will respond within 24 hours with the best available options."
+    "formNote": "Our team will respond within 24 hours with the best available options.",
+    "successMessage": "Thank you! Your flight request has been submitted. We'll get back to you within 24 hours."
   },
   "news": {
     "article1Title": "Gedotravel Launches New Luxury Nile Cruise Package",
