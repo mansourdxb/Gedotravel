@@ -2,8 +2,8 @@ import { Resend } from "resend";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
-const TO_EMAIL = "info@gedotravel.com";
-const FROM_EMAIL = "Gedotravel <onboarding@resend.dev>";
+const TO_EMAIL = process.env.EMAIL_TO || "info@gedotravel.com";
+const FROM_EMAIL = "Gedotravel <noreply@gedotravel.com>";
 
 interface EmailPayload {
   subject: string;
@@ -12,7 +12,7 @@ interface EmailPayload {
 }
 
 export async function sendEmail({ subject, html, replyTo }: EmailPayload) {
-  const { error } = await resend.emails.send({
+  const { data, error } = await resend.emails.send({
     from: FROM_EMAIL,
     to: TO_EMAIL,
     subject,
@@ -21,8 +21,11 @@ export async function sendEmail({ subject, html, replyTo }: EmailPayload) {
   });
 
   if (error) {
+    console.error("[Resend error]", error);
     throw new Error(error.message);
   }
+
+  console.log("[Resend sent]", data?.id);
 }
 
 export function escapeHtml(str: string): string {

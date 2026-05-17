@@ -46,8 +46,8 @@ export async function submitContactForm(formData: FormData): Promise<ActionResul
       ].join("")),
     });
     return { success: true };
-  } catch {
-    return { success: false, error: "Failed to send message" };
+  } catch (e) {
+    return { success: false, error: e instanceof Error ? e.message : "Failed to send message" };
   }
 }
 
@@ -86,8 +86,8 @@ export async function submitFlightsForm(formData: FormData): Promise<ActionResul
       ].join("")),
     });
     return { success: true };
-  } catch {
-    return { success: false, error: "Failed to send message" };
+  } catch (e) {
+    return { success: false, error: e instanceof Error ? e.message : "Failed to send message" };
   }
 }
 
@@ -121,8 +121,8 @@ export async function submitVisasForm(formData: FormData): Promise<ActionResult>
       ].join("")),
     });
     return { success: true };
-  } catch {
-    return { success: false, error: "Failed to send message" };
+  } catch (e) {
+    return { success: false, error: e instanceof Error ? e.message : "Failed to send message" };
   }
 }
 
@@ -150,8 +150,8 @@ export async function submitPartnerForm(formData: FormData): Promise<ActionResul
       ].join("")),
     });
     return { success: true };
-  } catch {
-    return { success: false, error: "Failed to send message" };
+  } catch (e) {
+    return { success: false, error: e instanceof Error ? e.message : "Failed to send message" };
   }
 }
 
